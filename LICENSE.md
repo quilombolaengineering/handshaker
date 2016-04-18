@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2016 Quilombola Engineering
+Copyright (c) 2016 Quilombola Engineering, Ben Word and Scott Walkinshaw
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
