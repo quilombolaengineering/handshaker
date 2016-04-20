@@ -36,7 +36,7 @@ use Roots\Sage\Wrapper;
                     <div class="description">
  
                         <div class="description-text">
-                            <h2>Slideshow Title 1</h2>
+                            <h2>Branch</h2>
                             <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</p>
                         </div>
                     </div>
