@@ -13,11 +13,7 @@ See a complete working example in the [handshaker.quilombolaengineering.com repo
 
 ## Theme installation
 
-Bottom line is you want to get the files in this repo into your local development environment. There are many ways to do this, two of which we will cover here.
-
-### via WordPress Admin Panel
-
-1. [Download the latest release](https://github.com/roots/sage/releases/latest) of Sage.
+1. [Download](https://github.com/quilombolaengineering/handshaker) handshaker.
 2. In your WordPress admin panel, navigate to Appearance->Themes
 3. Click Add New
 4. Click Upload Theme
