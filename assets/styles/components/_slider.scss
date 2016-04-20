@@ -1,45 +1,363 @@
-//how many images we have
-$slides: 4;
+@import "compass/css3";
 
-// how much we want each slide to show
-$time_per_slide: 4;
-
-// total time needed for full animation
-$total_animation_time: $time_per_slide * $slides;
-
-body{
-  background:#000;
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content; 
+  }
+  @-moz-keyframes #{$name} {
+    @content;
+  }
+  @-ms-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  } 
 }
-.container{
-  margin:50px auto;
-  width:500px;
-  height:300px;
-  overflow:hidden;
-  border:10px solid;
-  border-top-color:#856036;
-  border-left-color:#5d4426;
-  border-bottom-color:#856036;
-  border-right-color:#5d4426;
-  position:relative;
 
+
+@mixin animation($args...) {
+  -webkit-animation: $args;
+  -moz-animation: $args;
+  -o-animation: $args;
+  animation: $args;
 }
-.photo{
-  position:absolute;
-  animation:round #{$total_animation_time}s infinite;
-  opacity:0;
+
+@mixin transform($args...) {
+  -webkit-transform: $args;
+  -moz-transform: $args;
+  -o-transform: $args;
+  transform: $args;
+}
+
+
+@function keyframe-slicer($slides, $middle-step: false, $slide-duration: 20, $trans-duration: 2) {
+            
+  $total-duration: ($slides * $slide-duration) + ($slides * $trans-duration);
+  $slide-percent: (($slide-duration * 100) / $total-duration) + 0%;
+  $trans-percent: (($trans-duration * 100) / $total-duration) + 0%;
+  $steps: ();
   
-}
-@keyframes round{   
-  25%{
-    opacity:1;
-  }
-  40%{
-    opacity:0;
-  }
-} 
+  $memo: 0%;
+  @for $slide from 1 through $slides {
+    $start-step: $memo + $slide-percent;
+    $end-step: $start-step + $trans-percent;            
+    $range: (max($start-step, 0%) min($end-step, 100%));
+          
+    @if $middle-step {
+      $middle-step: $start-step + ($trans-percent / 2);
+      $range: (max($start-step, 0%) $middle-step min($end-step, 100%))
+    }
+          
+    $steps: append($steps, $range);
+    $memo: $end-step;
+   }
 
-@for $index from 1 to $slides + 1{
-  img:nth-child(#{$index}){
-    animation-delay:#{$total_animation_time - $time_per_slide * $index}s
+  @return $steps;
+}
+
+
+@function translateAxis($axis, $val) {
+  @return translate#{$axis}unquote("(")($val) unquote(")");
+}
+
+
+@function is-percent($val) {
+    @return quote(unit($val)) == "%";
+}
+
+      
+@mixin slide-keyframes($name, $slides, $size, $slide-duration, $trans-duration, $axis: Y, $is-percent: false){
+  $steps: keyframe-slicer($slides, false, $slide-duration, $trans-duration);
+                  
+  @if $is-percent {
+      $size: 100% / ($slides + 1);
   }
+            
+  @include keyframes($name) { 
+     $i: 0;
+    @each $range in $steps {
+      #{nth($range, 1)} {
+        $transform: translateAxis($axis, -($size * $i));
+        @include transform( $transform );          
+      }
+     
+      #{nth($range, 2)} {
+        $transform: translateAxis($axis, -($size * ($i + 1)));
+        @include transform( $transform );
+      }        
+      $i: $i + 1;
+    }         
+  }
+
+}
+          
+@mixin slide-fade-keyframes($name, $slides, $size, $slide-duration, $trans-duration, $axis: Y, $is-percent: false){
+  $steps: keyframe-slicer($slides, true, $slide-duration, $trans-duration);
+                  
+  @if $is-percent {
+      $size: 100% / ($slides + 1);
+  }
+            
+  @include keyframes($name) {                            
+    $i: 0;
+    @each $range in $steps {
+      #{nth($range, 1)} {
+        $transform:  translateAxis($axis, -($size * $i));
+        @include transform( $transform );          
+        opacity: 1;
+      }
+     
+      #{nth($range, 2)} {
+        opacity: 0;
+      }
+                    
+      #{nth($range, 3)} {
+        $transform: translateAxis($axis, -($size * ($i + 1)));
+        @include transform( $transform );
+        opacity: 1;
+      }
+      $i: $i + 1;
+    }         
+  }
+}
+              
+              
+@mixin fade-keyframes($name, $slides, $slide-duration, $trans-duration){
+  $steps: keyframe-slicer($slides, true, $slide-duration, $trans-duration);
+                  
+  @include keyframes($name) {                            
+    @each $range in $steps {
+      #{nth($range, 1)} {
+        opacity: 1;
+      }
+     
+      #{nth($range, 2)} {
+        opacity: 0;
+      }
+                    
+      #{nth($range, 3)} {
+        opacity: 1;
+      }
+    }         
+  }
+}
+
+              
+      
+%slider {
+        overflow: hidden;
+        display: block;
+        width: 100%;    
+                
+        > ul,
+        > ul > li {
+          margin: 0;
+          padding: 0;
+        }
+        
+        > ul {
+          overflow: hidden;
+          // @include animation-delay(0s);
+          // @include transform-style(preserve-3d);
+          // @include transform-origin(0%);
+          @include transform(translateX(0) translateY(0));
+        }
+                
+        > ul > li {
+            overflow: hidden;
+        }
+}
+      
+
+@mixin vertical-slider(
+        $placeholder-name: vertical-slider, 
+        $height: 200px,  
+        $slides: 3,
+        $easing: ease-in-out,
+        $slide-duration: 6,
+        $trans-duration: 2,
+        $skip-keyframes: false
+    ) {
+                          
+    $duration: ($slides * $slide-duration) + ($slides * $trans-duration) + 0s;
+    $is-percent: is-percent($height);
+    
+    %#{$placeholder-name} {
+      @extend %slider;
+      height: $height;                
+                    
+      > ul {
+        height: $height * ($slides + 1);
+        @include animation($placeholder-name $duration $easing infinite);
+      }
+                                
+      > ul > li {
+        height: $height;
+      }
+  }                
+  
+  @if $skip-keyframes == false {
+      @include slide-keyframes($placeholder-name, $slides, $height, $slide-duration, $trans-duration, $is-percent: $is-percent);                          
+  }
+}
+                  
+                  
+@mixin horizontal-slider(
+        $placeholder-name: horizontal-slider, 
+        $width: 200px,  
+        $slides: 3,
+        $easing: ease-in-out,
+        $slide-duration: 6,
+        $trans-duration: 2,
+        $skip-keyframes: false
+    ) {
+                          
+    $duration: ($slides * $slide-duration) + ($slides * $trans-duration) + 0s;
+    $is-percent: is-percent($width);
+     
+    %#{$placeholder-name} {
+      @extend %slider;
+      width: $width;
+
+      > ul {
+        width: $width * ($slides + 1);
+        @include animation($placeholder-name $duration $easing infinite);
+      }
+                                  
+      > ul > li {
+        float: left;
+        @if $is-percent {
+           width: 100% / ($slides + 1); 
+        } @else {
+           width: ($slides + 1) / 100;
+        }
+      }
+  }                
+  
+  @if $skip-keyframes == false {
+      @include slide-keyframes($placeholder-name, $slides, $width, $slide-duration, $trans-duration, $axis: X, $is-percent: $is-percent);
+  }
+}
+
+                                  
+                                  
+@mixin vertical-slider-fade( 
+        $placeholder-name: vertical-slider-fade,
+        $height: 200px,
+        $slides: 3,
+        $easing: ease-in-out,
+        $slide-duration: 6,
+        $trans-duration: 2) {
+                          
+    $duration: ($slides * $slide-duration) + ($slides * $trans-duration) + 0s;
+    $is-percent: is-percent($height);
+                                                        
+    @include vertical-slider($placeholder-name, $height, $slides, $easing, $slide-duration, $trans-duration, $skip-keyframes: true);
+                                                              
+    @include slide-fade-keyframes($placeholder-name, $slides, $height, $slide-duration, $trans-duration, $axis: Y, $is-percent: $is-percent);
+}
+
+                                                    
+@mixin horizontal-slider-fade(
+        $placeholder-name: horizontal-slider-fade, 
+        $width: 200px,  
+        $slides: 3,
+        $easing: ease-in-out,
+        $slide-duration: 6,
+        $trans-duration: 2
+    ) {
+                          
+    $duration: ($slides * $slide-duration) + ($slides * $trans-duration) + 0s;
+    $is-percent: is-percent($width);
+                                                               
+  @include horizontal-slider($placeholder-name, $width, $slides, $easing, $slide-duration, $trans-duration, $skip-keyframes: true);
+
+  @include slide-fade-keyframes($placeholder-name, $slides, $width, $slide-duration, $trans-duration, $axis: X, $is-percent: $is-percent);
+}
+
+                                  
+                                  
+                                  
+                                  
+            
+///////////
+// USAGE
+///////////                                                                  
+                                                                  
+//custom easing
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+                    
+                                                                  
+@include vertical-slider($height: 200px, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+                  
+.slider-vertical {
+  //extend generated placeholder                        
+  @extend %vertical-slider;   
+}
+                                        
+                                                                       
+@include horizontal-slider($width: 100%, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+.cssanimations .slider-horizontal {
+  //extend generated placeholder                        
+  @extend %horizontal-slider;   
+                                                  
+  height: 200px;
+  text-align: center;
+}
+                                                          
+       
+                                                  
+@include vertical-slider-fade($height: 200px, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+                  
+.fader-vertical {
+  //extend generated placeholder                        
+  @extend %vertical-slider-fade;   
+}
+                                                                                                                                    
+@include horizontal-slider-fade($width: 100%, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+                  
+.cssanimations .fader-horizontal {
+  // extend generated placeholder                      
+  @extend %horizontal-slider-fade;            
+   height: 200px;
+}
+
+                                                                                                                        
+
+                                                                                                  
+// APPEARANCE (only for the demo)                    
+.slider-vertical, .fader-vertical, .fader-horizontal, .slider-horizontal {
+  margin-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.slider-vertical li, .fader-vertical li, .fader-horizontal li, .slider-horizontal li { 
+  text-align: center;
+  font-size: 40px;
+  color: #FFF;
+  font-weight: bold;
+  h2, h3 {
+     padding-top: 38px;
+  } 
+}
+              
+body {
+  background-color: #000;
+  font-family: 'Helvetica', serif;
+  color: #FFF;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  padding: 2em;
+}
+                          
+pre {
+  background-color: #FFF;
+  padding: 40px;
+  font-family: monospace;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5em;
 }
