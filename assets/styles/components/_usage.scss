@@ -1,0 +1,41 @@
+/////////////
+//  USAGE
+/////////////                                                                  
+              
+// demos -> http://codepen.io/vieron/full/KuIyk
+              
+//custom easing
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
+                    
+                                                                  
+@include vertical-slider($height: 200px, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);                  
+.slider-vertical {
+  //extend generated placeholder                        
+  @extend %vertical-slider;   
+}
+                                        
+
+@include horizontal-slider($width: 100%, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+.slider-horizontal {
+  //extend generated placeholder                        
+  @extend %horizontal-slider;   
+                                                  
+  height: 200px;
+}
+                                                                                  
+       
+                                                  
+@include vertical-slider-fade($height: 200px, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);                  
+.fader-vertical {
+  //extend generated placeholder                        
+  @extend %vertical-slider-fade;   
+}
+                                                                                          
+                                                                                          
+                                                                                          
+@include horizontal-slider-fade($width: 100%, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+.fader-horizontal {
+  // extend generated placeholder                      
+  @extend %horizontal-slider-fade;            
+   height: 200px;
+}
