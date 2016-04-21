@@ -5,8 +5,9 @@
   <img class='photo'  src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/branch.jpg"  width="100%"  alt="" />
 </div>
 
-<div class="page-content">
-      <div class="fader-horizontal">
+<h1>SASS Mixins for easy slider creation II</h1>
+
+<div class="fader-horizontal">
   <ul>
     <li>
       <h2>YOUR CITY</h2>
@@ -129,3 +130,25 @@
     </li>
   </ul>
 </div>
+
+
+
+
+<pre>
+// USAGE            
+@include vertical-slider(
+  $placeholder-name: slide-vertical,
+  $height: 200px,
+  $slides: 4,
+  $easing: ease-in-out,
+  $slide-duration: 5,
+  $trans-duration: 2
+);
+  
+.slider {
+  // extend generated placeholder                     
+  @extend %slide-vertical;   
+}
+</pre>
+
+

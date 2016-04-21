@@ -39,3 +39,19 @@ $ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
   @extend %horizontal-slider-fade;            
    height: 200px;
 }
+
+// USAGE
+@include vertical-slider(
+  $placeholder-name: slide-vertical,
+  $height: 200px,
+  $slides: 4,
+  $easing: ease-in-out,
+  $slide-duration: 5,
+  $trans-duration: 2
+);
+
+.slider {
+  // extend generated placeholder
+  @extend %slide-vertical;
+}
+
