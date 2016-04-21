@@ -19,3 +19,20 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+
+
+// USAGE
+@include vertical-slider(
+  $placeholder-name: slide-vertical,
+  $height: 200px,
+  $slides: 4,
+  $easing: ease-in-out,
+  $slide-duration: 5,
+  $trans-duration: 2
+);
+
+.slider {
+  // extend generated placeholder
+  @extend %slide-vertical;
+}
+
