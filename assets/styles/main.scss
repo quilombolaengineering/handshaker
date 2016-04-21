@@ -11,7 +11,6 @@
 @import "components/forms";
 @import "components/grid";
 @import "components/slider";
-@import "components/usage";
 @import "components/wp-classes";
 @import "layouts/header";
 @import "layouts/sidebar";
@@ -20,19 +19,40 @@
 @import "layouts/posts";
 @import "layouts/tinymce";
 
+$ease-in-out-cubic: cubic-bezier(0.645, 0.045, 0.355, 1.000);
 
-// USAGE
-@include vertical-slider(
-  $placeholder-name: slide-vertical,
-  $height: 200px,
-  $slides: 4,
-  $easing: ease-in-out,
-  $slide-duration: 5,
-  $trans-duration: 2
-);
 
-.slider {
+@include vertical-slider($height: 200px, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+
+.slider-vertical {
+  //extend generated placeholder
+  @extend %vertical-slider;
+}
+
+
+@include horizontal-slider($width: 100%, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+.cssanimations .slider-horizontal {
+  //extend generated placeholder
+  @extend %horizontal-slider;
+
+  height: 200px;
+  text-align: center;
+}
+
+
+
+@include vertical-slider-fade($height: 200px, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+
+.fader-vertical {
+  //extend generated placeholder
+  @extend %vertical-slider-fade;
+}
+
+@include horizontal-slider-fade($width: 100%, $slides: 4, $easing: $ease-in-out-cubic, $slide-duration: 3, $trans-duration: 1);
+
+.cssanimations .fader-horizontal {
   // extend generated placeholder
-  @extend %slide-vertical;
+  @extend %horizontal-slider-fade;
+   height: 200px;
 }
 
