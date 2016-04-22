@@ -27,7 +27,8 @@ body{
 	width:	100%;
 	margin:	0 auto;
 	text-align:	center;
-	height:	100vh;
+	max-height:	1350px;
+	min-height:	1200px;
 	color:	rgba(255,255,255,0.9);
 	@include overlay($color-beta, 0.4);
 	
