@@ -1,6 +1,6 @@
-<section class="section-ribbon">
+<section class="section-ribbon orange-ribbon">
 	<!-- Usage Guide -->
-	<div class="container orange-ribbon">
+	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-overlay"></div>
