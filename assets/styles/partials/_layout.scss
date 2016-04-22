@@ -13,7 +13,7 @@ html {
     font-size: 100%;
     width: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: $color-orange;
+    background-color: $color-beta;
 }
 //Fade In Body
 body {
@@ -31,8 +31,8 @@ body {
     margin: 0 auto;
     text-align: center;
     height: 100vh;
-    color: rgba(255, 255, 255, 0.9);
-    @include overlay($color-orange, 0.4);
+    color: $color-orange;
+    @include overlay($color-beta, 0.4);
     .v-center {
         display: table-cell;
         vertical-align: middle;
@@ -90,5 +90,30 @@ footer {
     z-index: 8;
     bottom: 1em;
 }
+
+
+/*----------------------------------------------
+--Ribbon
+-----------------------------------------------  */
+
+.orange-ribbon {
+  background-color: $color-orange;
+  z-index: 1;
+}
+
+/* Content Row Overlay */
+.ribbon-overlay {
+  position: absolute !important;
+  z-index: 2;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.ribbon-text {
+  position: relative;
+  z-index: 3;
+  color: rgba(255, 255, 255, 0.9);
 }
 
