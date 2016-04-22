@@ -27,7 +27,7 @@ body{
 	width:	100%;
 	margin:	0 auto;
 	text-align:	center;
-	max-height:	1350px;
+	height:	1350px;
 	color:	rgba(255,255,255,0.9);
 	@include overlay($color-beta, 0.4);
 	
@@ -47,7 +47,6 @@ body{
 			@include animation(fade-in ease-in-out 2s 1s both);
 		}
 	}
-}
 
 /*----------------------------------------------   
 -DEMO1: Unordered list
@@ -92,4 +91,5 @@ footer{
 	position:	fixed;	
 	z-index:	8;
 	bottom:	1em;
+}
 }
