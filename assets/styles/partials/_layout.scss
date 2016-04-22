@@ -13,7 +13,7 @@ html {
     font-size: 100%;
     width: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: $color-beta;
+    background-color: $color-orange;
 }
 //Fade In Body
 body {
@@ -32,7 +32,7 @@ body {
     text-align: center;
     height: 100vh;
     color: rgba(255, 255, 255, 0.9);
-    @include overlay($color-beta, 0.4);
+    @include overlay($color-orange, 0.4);
     .v-center {
         display: table-cell;
         vertical-align: middle;
@@ -77,6 +77,7 @@ ul.keyframe-slider {
         }
     }
 }
+
 /*----------------------------------------------
 -Footer
 -----------------------------------------------  */
