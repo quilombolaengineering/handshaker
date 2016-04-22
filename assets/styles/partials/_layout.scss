@@ -126,7 +126,7 @@ footer {
   line-height: 27px;
   text-formatting: none;
   z-index: 3;
-  color: #1b3039;
+  color: $color-dark;
 }
 
 .ribbon-text h2 {
@@ -134,4 +134,9 @@ footer {
   font-style: normal;
   text-transform: uppercase;
   line-height: 30px;
+  color: $color-light;
+}
+
+.ribbon-text img {
+  float: left;
 }
