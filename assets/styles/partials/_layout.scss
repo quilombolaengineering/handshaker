@@ -23,6 +23,7 @@ body{
 --Banner
 -----------------------------------------------  */
 .section-banner{
+	position: relative;
 	display:	table;
 	width:	100%;
 	margin:	0 auto;
@@ -51,7 +52,7 @@ body{
 /*----------------------------------------------   
 Unordered list
 -----------------------------------------------  */
-ul.kf-slider{
+ul.keyframe-slider{
  li{
         @include bg-abs;
   opacity:      0;
