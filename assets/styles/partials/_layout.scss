@@ -32,7 +32,7 @@ body {
     text-align: center;
     height: 100vh;
     color: $color-orange;
-    @include overlay($color-beta, 0.8);
+    @include overlay($color-dark, 0.8);
     .v-center {
         display: table-cell;
         vertical-align: middle;
@@ -40,7 +40,6 @@ body {
         z-index: 4;
         padding: 0 5%;
         h1 {
-	    color: $color-orange;
             @include animation(fade-in ease-in-out 2s 0.5s both);
         }
         p {
