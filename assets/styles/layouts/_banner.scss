@@ -643,7 +643,7 @@ body{
 /*----------------------------------------------   
 --Banner
 -----------------------------------------------  */
-.sect-banner{
+.section-banner{
 	display:	table;
 	width:	100%;
 	margin:	0 auto;
@@ -701,22 +701,6 @@ ul.kf-slider{
 		}
 	}
 }
-
-	/*----------------------------------------------   
-	-DEMO2: Banner bg
-	-----------------------------------------------  */	
-	.banner-bg{
-		@include bg-abs;
-		background-image:	url(../images/banner-1-sm.jpg);
-		@include animation(slider-sm ease-in-out 30s both infinite);
-			
-		@media (min-width: $mq-med) {
-			background-image:	url(../images/banner-1.jpg);
-			@include animation(slider-lg ease-in-out 30s both infinite);
-		}
-	}
-}
-
 
 /*----------------------------------------------   
 -Footer

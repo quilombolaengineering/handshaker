@@ -1,7 +1,7 @@
 <section class="section-ribbon">
 	<!-- Usage Guide -->
-	<div class="container">
-		<div class="row orange-ribbon">
+	<div class="container orange-ribbon">
+		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-overlay"></div>
 				<div class="ribbon-text">
