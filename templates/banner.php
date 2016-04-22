@@ -6,7 +6,7 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
-		<h1><a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a></h1> 
-		<p>Silky smooth background image slider with css keyframes</p>	
+		<h1><?php bloginfo('name'); ?></h1> 
+		<p><?php bloginfo('description'); ?></p>	
 	</div>
 </section>
