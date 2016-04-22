@@ -9,5 +9,6 @@
 		<h1><?php bloginfo('name'); ?></h1> 
 		<p><?php bloginfo('description'); ?></p>	
 		<button type="button">get involved</button>
+		<a class="btn-white" href="#">Get Involved!</a>
 	</div>
 </section>
