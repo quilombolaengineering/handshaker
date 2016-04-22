@@ -75,10 +75,10 @@ p{
 --Links
 -----------------------------------------------  */
 a{
-	color:	$color-alpha;
+	color:	$color-light;
 	@include transition(color 0.7s ease);
 	&:hover{
-		color:	darken($color-alpha, 15);
+		color:	darken($color-light, 15);
 		@include transition(color 0.7s ease);
 	}
 }
