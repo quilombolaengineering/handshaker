@@ -28,7 +28,6 @@ body{
 	margin:	0 auto;
 	text-align:	center;
 	max-height:	1350px;
-	min-height:	1200px;
 	color:	rgba(255,255,255,0.9);
 	@include overlay($color-beta, 0.4);
 	
@@ -80,21 +79,6 @@ ul.kf-slider{
                         background-image:       url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
                 }
         }
-}
-
-	/*----------------------------------------------   
-	-DEMO2: Banner bg
-	-----------------------------------------------  */	
-	.banner-bg{
-		@include bg-abs;
-		background-image:	url(../images/banner-1-sm.jpg);
-		@include animation(slider-sm ease-in-out 30s both infinite);
-			
-		@media (min-width: $mq-med) {
-			background-image:	url(../images/banner-1.jpg);
-			@include animation(slider-lg ease-in-out 30s both infinite);
-		}
-	}
 }
 
 
