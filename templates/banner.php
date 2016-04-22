@@ -8,5 +8,6 @@
 	<div class="v-center">
 		<h1><?php bloginfo('name'); ?></h1> 
 		<p><?php bloginfo('description'); ?></p>	
+		<a href="#" class="btn">get involved</a>
 	</div>
 </section>
