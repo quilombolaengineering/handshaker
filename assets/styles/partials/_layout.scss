@@ -115,16 +115,14 @@ footer {
 
 .ribbon-text {
   position: relative;
-  top: 10px;
-  left: 10px;
   margin: 10px 0;
   padding: 10px 0;
   font-family: Lato;
   font-style: italic;
   font-weight: 700;
-  font-size: 22px;
-  line-height: 27px;
-  text-formatting: none;
+  font-size: 2em;
+  line-height: 2.5em;
+  text-decoration: none;
   z-index: 3;
   color: $color-dark;
 }
