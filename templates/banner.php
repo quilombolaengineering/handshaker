@@ -1,6 +1,6 @@
 <section class="section-banner">
-	<!-- Slider animation -->
-	<ul class="kf-slider">
+	<!-- slider animation -->
+	<ul class="keyframe-slider">
 		<li></li>
 		<li></li>
 		<li></li>

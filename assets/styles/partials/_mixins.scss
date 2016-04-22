@@ -15,7 +15,7 @@
 /*----------------------------------------------   
 --overlay psedu
 -----------------------------------------------  */
-@mixin overlay($bgColor: #000, $bgOpacity: 0.6){
+@mixin overlay($bgColor: #fff, $bgOpacity: 0.6){
 	&:after{
 	content: '';
 	position: absolute;
