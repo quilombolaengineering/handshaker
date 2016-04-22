@@ -1,4 +1,3 @@
-<div class="row">
 <section class="sect-banner">
 	<!-- Slider animation -->
 	<ul class="kf-slider">
@@ -11,4 +10,3 @@
 		<p><?php bloginfo('description'); ?></p>	
 	</div>
 </section>
-</div>
