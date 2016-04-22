@@ -18,3 +18,4 @@ node_modules/
 /readme.html
 /license.txt
 
+*.swp

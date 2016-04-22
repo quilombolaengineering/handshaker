@@ -32,7 +32,7 @@ body {
     text-align: center;
     height: 100vh;
     color: $color-orange;
-    @include overlay($color-beta, 0.6);
+    @include overlay($color-beta, 0.8);
     .v-center {
         display: table-cell;
         vertical-align: middle;
