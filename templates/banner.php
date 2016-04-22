@@ -1,4 +1,4 @@
-<section class="sect-banner">
+<div style="height:600px"><section class="sect-banner">
 	<!-- Slider animation -->
 	<ul class="kf-slider">
 		<li></li>
@@ -9,4 +9,4 @@
 		<h1><?php bloginfo('name'); ?></h1> 
 		<p><?php bloginfo('description'); ?></p>	
 	</div>
-</section>
+</section></div>
