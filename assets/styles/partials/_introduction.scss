@@ -6,13 +6,17 @@
 	margin: 10em 0;
 }
 
+.introduction_image {
+	max-width: 10em;
+}
+
 /* COLORED BORDERS AND LINES */
 .colored-line-left,
 .colored-line-right,
 .colored-line {
 	background: $color-orange;
 	height: 2px;
-	width: 80px;
+	width: 10em;
 	display: block;
 }
 
