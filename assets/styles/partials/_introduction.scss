@@ -15,6 +15,7 @@
 }
 
 .introduction-image {
+	position: relative;
 	@include animation(intro-image-slider ease-out 1.5s 1s forwards);
 	top: 50%;
 	max-width: 1000px;
