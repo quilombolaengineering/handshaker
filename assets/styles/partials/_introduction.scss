@@ -6,7 +6,7 @@
 	margin: 10em 0;
 }
 
-.introduction_image {
+.introduction-image {
 	max-width: 10em;
 }
 
@@ -16,7 +16,9 @@
 .colored-line {
 	background: $color-orange;
 	height: 2px;
-	width: 10em;
+	width: 5em;
+	text-align: center;
+	line-height: 2em;
 	display: block;
 }
 
