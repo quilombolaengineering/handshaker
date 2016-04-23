@@ -22,12 +22,13 @@
 	position: relative;
 	@include animation(intro-image-slider ease-out 1.5s 1s forwards);
 	top: 50%;
+	width: 25%;
 	max-width: 1000px;
 }
 
 /* COLORED BORDERS AND LINES */
 .colored-line {
-	@include animation(stretch-line ease-in 1s 0.5s);
+	@include animation(stretch-line ease-out 1s 0.5s forwards);
 	background: $color-orange;
 	height: 2px;
 	text-align: center;
