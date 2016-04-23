@@ -1,0 +1,22 @@
+/*----------------------------------------------
+--Introduction
+-----------------------------------------------  */
+
+.section-introduction {
+	margin: 3em 0;
+}
+
+/* COLORED BORDERS AND LINES */
+.colored-line-left,
+.colored-line-right,
+.colored-line {
+	background: $color-orange;
+	height: 2px;
+	width: 80px;
+	display: block;
+}
+
+.colored-line-left {
+	float: left;
+	margin: auto;
+}

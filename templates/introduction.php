@@ -5,7 +5,7 @@
 			<!-- Introduction Image -->
 			<div class="col-md-6">
 				<div class="introduction-image">
-					<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
+					<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png" height="100%">
 				</div>
 			</div>
 			<!-- Introduction Text -->
