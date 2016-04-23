@@ -3,6 +3,8 @@
 -----------------------------------------------  */
 
 .organization-introduction {
+	position: relative;
+	display: table;
 	margin: 10em 0;
 }
 
@@ -19,11 +21,7 @@
 }
 
 .introduction-image {
-	position: relative;
 	@include animation(intro-image-slider ease-out 1.5s 1s forwards);
-	top: 50%;
-	width: 25%;
-	max-width: 1000px;
 }
 
 /* COLORED BORDERS AND LINES */

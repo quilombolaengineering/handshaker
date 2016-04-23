@@ -4,7 +4,7 @@
 		<div class="row">
 			<!-- Introduction Image -->
 			<div class="col-md-6">
-				<img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
+				<img class="col-xs-10 col-xs-offset-1 introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
 			</div>
 			<!-- Introduction Text -->
 			<div class="col-md-6">
