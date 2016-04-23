@@ -112,7 +112,6 @@ footer {
   font-weight: 700;
   font-size: 1.25em;
   line-height: 1.6em;
-  text-decoration: none;
   z-index: 3;
   color: $color-dark;
 }
@@ -123,6 +122,11 @@ footer {
   text-transform: uppercase;
   line-height: 1.3em;
   color: $color-light;
+  padding: 0 0.5em;
+}
+
+.ribbon-text a {
+  text-decoration: none;
 }
 
 .ribbon-text img {
