@@ -25,6 +25,7 @@
 	display: table-cell;
 	vertical-align: middle;
 	@include animation(intro-img-slider ease-out 1.5s 1s forwards);
+	width: 350px;
 }
 
 /* COLORED BORDERS AND LINES */
