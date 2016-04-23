@@ -24,8 +24,7 @@
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
-	@include animation(intro-image-slider ease-out 1.5s 1s forwards);
-	height: 100%;
+	@include animation(intro-img-slider ease-out 1.5s 1s forwards);
 }
 
 /* COLORED BORDERS AND LINES */
