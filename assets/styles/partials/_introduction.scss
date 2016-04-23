@@ -20,8 +20,6 @@
 	width: 5em;
 	text-align: center;
 	line-height: 2em;
-	display: block;
-	@include animation(fade-in ease-in-out 1.4s);
 }
 
 .colored-line-left,
