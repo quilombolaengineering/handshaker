@@ -15,8 +15,8 @@
 }
 
 .introduction-image {
-	@include animation(shift-image-right linear 1s 0.5s);
-	@include animation(fill-image linear 1.5s);
+	@include animation(shift-image-right linear 1s 0.5s forward);
+	@include animation(fill-image linear 1.5s forward);
 }
 
 /* COLORED BORDERS AND LINES */
