@@ -15,11 +15,9 @@
 }
 
 .introduction-image {
-	@include animation(fade-in ease-out 1.5s forwards);
-	@include animation(shift-image-right linear 1s 0.5s forwards);
-	@include animation(fill-image linear 1.5s forwards);
+	@include animation(intro-image-slider ease-out 1.5s 1s forwards);
 	top: 50%;
-	left: 10%;
+	max-width: 1000px;
 }
 
 /* COLORED BORDERS AND LINES */
