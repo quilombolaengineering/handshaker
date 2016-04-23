@@ -24,7 +24,7 @@
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
-	@include animation(intro-img-slider ease-out 1.5s 1s forwards);
+	@include animation(slide-image-right ease-out 1.5s 1s forwards);
 	width: 250px;
 }
 
