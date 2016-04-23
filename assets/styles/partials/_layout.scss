@@ -49,16 +49,14 @@ body {
     }
 
 img {
-  transition: all ease-out 1s forward;
+  transition: border ease-out 2s forwards;
   width: 78px;
   border: 1px solid white;
   border-radius: 40px;
 }
 
 img:hover {
-  width: 80px;
   border: 1px solid $color-orange;
-  border-radius: 41px;
 }
 
 /*----------------------------------------------
