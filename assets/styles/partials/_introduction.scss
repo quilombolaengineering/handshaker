@@ -7,14 +7,14 @@
 }
 
 .introduction-image {
-	@include animation(shift-image-right ease-in-out 2s 0.5s);
+	@include animation(shift-image-right ease-in-out 2s 0.5s forward);
 }
 
 /* COLORED BORDERS AND LINES */
 .colored-line-left,
 .colored-line-right,
 .colored-line {
-	@include animation(stretch-line ease-in-out 2s 0.5s);
+	@include animation(stretch-line ease-in-out 2s 0.5s forward);
 	background: $color-orange;
 	height: 2px;
 	text-align: center;
