@@ -48,6 +48,10 @@ body {
         }
     }
 
+img {
+  width: 75px;
+}
+
 /*----------------------------------------------
 Unordered list
 -----------------------------------------------  */
@@ -76,19 +80,6 @@ ul.keyframe-slider {
             background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
         }
     }
-}
-
-/*----------------------------------------------
--Footer
------------------------------------------------  */
-
-footer {
-    width: 100%;
-    text-align: center;
-    color: $color-light;
-    position: fixed;
-    z-index: 8;
-    bottom: 1em;
 }
 
 }

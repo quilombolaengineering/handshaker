@@ -1,4 +1,4 @@
-<section class="section-banner">
+<section id="banner" class="section-banner">
 	<!-- slider animation -->
 	<ul class="keyframe-slider">
 		<li></li>
@@ -8,10 +8,6 @@
 	<div class="v-center">
 		<h1><?php bloginfo('name'); ?></h1> 
 		<p><?php bloginfo('description'); ?></p>	
+		<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/faded-handshaker-logo-1000x1000px.png" /></a>
 	</div>
-<footer>
-	<div class="row">
-		<p>A little thing by <a href="http://twitter.com/stephenscaff" target="_blank">@StephenScaff</a></p>
-	</div>
-</footer>
 </section>
