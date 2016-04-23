@@ -14,15 +14,18 @@
 .colored-line-left,
 .colored-line-right,
 .colored-line {
+	transition: width 1s ease-in-out 1s;
 	background: $color-orange;
 	height: 2px;
 	width: 5em;
 	text-align: center;
 	line-height: 2em;
 	display: block;
+	@include animation(fade-in ease-in-out 1.4s);
 }
 
-.colored-line-left {
-	float: left;
-	margin: auto;
+.colored-line-left,
+.colored-line-right,
+.colored-line:hover {
+	width: 6em;
 }
