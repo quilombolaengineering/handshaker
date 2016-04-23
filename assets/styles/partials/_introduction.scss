@@ -14,7 +14,7 @@
 .colored-line-left,
 .colored-line-right,
 .colored-line {
-	transition: width 1s ease-in-out 1s;
+	@include animation(stretch-line 2s);
 	background: $color-orange;
 	height: 2px;
 	width: 5em;
