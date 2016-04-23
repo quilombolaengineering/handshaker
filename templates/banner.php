@@ -10,3 +10,8 @@
 		<p><?php bloginfo('description'); ?></p>	
 	</div>
 </section>
+<footer>
+	<div class="row">
+		<p>A little thing by <a href="http://twitter.com/stephenscaff" target="_blank">@StephenScaff</a></p>
+	</div>
+</footer>
