@@ -18,7 +18,7 @@
 --Fill Image
 -----------------------------------------------  */
 @include keyframes(fill-image) {
-  0%{ width: 0; }
+  0%{ width: 40; }
   100%{ width: 50%; }
 }
 
@@ -26,16 +26,16 @@
 --Slide Image Right
 -----------------------------------------------  */
 @include keyframes(slide-image-right) {
-  0%{ right: auto; }
-  100%{ right: 0; }
+  0%{ right: 100%; }
+  100%{ right: 0%; }
 }
 
 /*----------------------------------------------
 --Stretch line
 -----------------------------------------------  */
 @include keyframes(stretch-line) {
-  0%{ width: 60%; left: 50% }
-  100%{ width: 80%; left: 0% }
+  0%{ width: 30%; }
+  100%{ width: 40%; }
 }
 
 /*----------------------------------------------   
