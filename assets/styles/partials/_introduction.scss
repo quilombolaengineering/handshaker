@@ -7,7 +7,7 @@
 }
 
 .introduction-image {
-	max-width: 10em;
+	@include animation(shift-image-right ease-in-out 2s 0.5s);
 }
 
 /* COLORED BORDERS AND LINES */
@@ -17,13 +17,6 @@
 	@include animation(stretch-line ease-in-out 2s 0.5s);
 	background: $color-orange;
 	height: 2px;
-	width: 5em;
 	text-align: center;
 	line-height: 2em;
-}
-
-.colored-line-left,
-.colored-line-right,
-.colored-line:hover {
-	width: 6em;
 }
