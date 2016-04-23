@@ -11,7 +11,7 @@
 			<!-- Introduction Text -->
 			<div class="col-md-6">
 				<div class="row introduction-title"><h2>About Us</h2></div>
-				<div class="row colored-line-left"></div>
+				<div class="row colored-line"></div>
 				<div class="row introduction-text">Handshaker is a Wordpress Theme created by Quilombola Engineering. 
 				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
 				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
