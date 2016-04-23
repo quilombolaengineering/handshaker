@@ -1,6 +1,6 @@
 <section class="section-introduction">
 	<!-- Introduce Organization -->
-	<div class="container organization-introduction">
+	<div class="container-fluid organization-introduction">
 		<div class="row">
 			<!-- Introduction Image -->
 			<div class="col-md-6">
