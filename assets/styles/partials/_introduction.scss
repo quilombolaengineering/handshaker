@@ -16,7 +16,8 @@
 
 .introduction-image {
 	padding: 2em;
-	@include animation(fill-image linear 2.5s forward);
+	@include animation(shift-image-right ease-in-out 2s 0.5s);
+	@include animation(fill-image linear 2.5s);
 }
 
 /* COLORED BORDERS AND LINES */
