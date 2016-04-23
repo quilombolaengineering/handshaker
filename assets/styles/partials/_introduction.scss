@@ -4,16 +4,18 @@
 
 .organization-introduction {
 	margin: 10em 0;
-	padding: 2em;
 }
 
 .introduction-title {
+	padding: 2em;
 }
 
 .introduction-text {
+	padding: 2em;
 }
 
 .introduction-image {
+	padding: 2em;
 	@include animation(shift-image-right ease-in-out 2s 0.5s forward);
 	@include animation(fill-image linear 2.5s forward);
 }
