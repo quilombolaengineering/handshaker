@@ -31,7 +31,7 @@ body {
     margin: 0 auto;
     text-align: center;
     height: 100vh;
-    color: $color-orange;
+    color: $color-orange-alpha;
     @include overlay($color-dark, 0.8);
     .v-center {
         display: table-cell;
@@ -115,23 +115,23 @@ footer {
 
 .ribbon-text {
   position: relative;
-  margin: 10px 0;
-  padding: 10px 0;
+  margin: 1em 0;
+  padding: 1em 0;
   font-family: Lato;
   font-style: italic;
   font-weight: 700;
-  font-size: 2em;
-  line-height: 2.5em;
+  font-size: 1.05em;
+  line-height: 1.3em;
   text-decoration: none;
   z-index: 3;
   color: $color-dark;
 }
 
 .ribbon-text h2 {
-  font-size: 25px;
+  font-size: 1.1em;
   font-style: normal;
   text-transform: uppercase;
-  line-height: 30px;
+  line-height: 1.3em;
   color: $color-light;
 }
 
