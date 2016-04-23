@@ -15,7 +15,6 @@
 }
 
 .introduction-image {
-	max-height: 10em;
 	@include animation(shift-image-right linear 1s 0.5s);
 	@include animation(fill-image linear 1.5s);
 }
