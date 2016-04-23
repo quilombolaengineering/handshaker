@@ -36,8 +36,8 @@
 @include keyframes(intro-img-slider) {
   0%{ opacity: 0 }
   20%{ max-height: 20em; }
-  40%{ left: 10% }
-  60%{ left: 20% }
+  40%{ left: 30% }
+  60%{ left: 40% }
   80%{ max-height: 18em; }
   100%{ opacity: 1 }
 }
