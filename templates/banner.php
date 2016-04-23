@@ -6,8 +6,8 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
+		<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/faded-handshaker-logo-1000x1000px.png" /></a>
 		<h1><?php bloginfo('name'); ?></h1> 
 		<p><?php bloginfo('description'); ?></p>	
-		<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/faded-handshaker-logo-1000x1000px.png" /></a>
 	</div>
 </section>
