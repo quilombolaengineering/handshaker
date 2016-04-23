@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <h2>How can I use handshaker?</h2> </a></p>
+					<a href="#"> <h2>How can I use handshaker?</h2> </a>
 				</div>
 			</div>
 			<div class="col-md-3">
