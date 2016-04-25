@@ -1,0 +1,66 @@
+*,:before,:after
+{
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+html
+{
+  font-size:100%;
+  width:100%;
+  -webkit-text-size-adjust:100%;
+  background-color:$color-beta;
+}
+
+.section-banner
+{
+  display:table;
+  width:100%;
+  text-align:center;
+  height:100vh;
+  color:$color-orange-alpha;
+  v-centerdisplay:table-cell;
+  vertical-align:middle;
+  position:relative;
+  z-index:4;
+  margin:0 auto;
+  padding:0 5%;
+}
+
+p
+{
+  font-size:120%;
+}
+
+img
+{
+  transition:border ease-out 2s forwards;
+  width:78px;
+  border:1px solid #FFF;
+  border-radius:40px;
+}
+
+img:hover
+{
+  border:1px solid $color-orange;
+}
+
+ul.keyframe-slider
+{
+  opacity:0;
+  mediamin-width:$mq-med) {;
+  background-image:url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
+}
+
+li:nth-child(2)
+{
+  mediamin-width:$mq-med) {;
+  background-image:url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
+}
+
+li:nth-child(3)
+{
+  mediamin-width:$mq-med) {;
+  background-image:url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
+}
