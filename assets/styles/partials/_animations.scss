@@ -2,8 +2,8 @@
 --Slide Out (for Artist Slider)
 -----------------------------------------------  */
 @include keyframes(slide-out) {
-  0%{ left: 100vw }
-  100%{ left: 0vw }
+  0%{ left: 0vw }
+  100%{ left: 100vw }
 }
 
 /*----------------------------------------------   
