@@ -6,7 +6,7 @@
 	text-align: center;
 	height: 100vh;
 	color: $color-orange-alpha;
-	@include overlay($color-dark, 0.8);
+	@include overlay($color-dark, 0.9);
 	.v-center {
 		display: table-cell;
 		vertical-align: middle;
@@ -34,7 +34,7 @@
 		list-style-type: none;
 		li {
 			@include bg-abs;
-                        margin-left: 0vw;
+                        left: 0vw;
 			@include animation(slide-out 9s linear infinite);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
 			@media (min-width: $mq-med) {
