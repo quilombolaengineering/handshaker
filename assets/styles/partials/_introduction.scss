@@ -8,25 +8,29 @@
 	margin: 2em 0;
 }
 
-.introduction-title {
-	margin: 0;
-}
-
-.introduction-line {
-	margin: 0;
-}
-
-.introduction-text {
-	margin: 0;
-}
-
 .introduction-image {
+	padding-bottom: 1em;
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
 	@include animation(slide-image-right ease-out 1.5s 1s forwards);
 	width: 250px;
 	opacity: 0;
+}
+
+.introduction-title {
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+.introduction-line {
+	margin: 0;
+	padding-bottom: 1em;
+}
+
+.introduction-text {
+	margin: 0;
+	padding-bottom: 1em;
 }
 
 /* COLORED BORDERS AND LINES */
