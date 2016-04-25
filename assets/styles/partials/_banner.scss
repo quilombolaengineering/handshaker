@@ -1,29 +1,3 @@
-/*----------------------------------------------
---Setup
------------------------------------------------  */
-
-*,
-*:before,
-*:after {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-html {
-    font-size: 100%;
-    width: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: $color-beta;
-}
-//Fade In Body
-body {
-    @include animation(fade-in ease-in-out 1.4s);
-}
-
-
-/*----------------------------------------------
---Banner
------------------------------------------------  */
 .section-banner {
 	position: relative;
 	display: table;
