@@ -34,9 +34,7 @@
 		list-style-type: none;
 		li {
 			@include bg-abs;
-                        left: 0vw;
-			opacity: 1;
-			@include animation(slide-out 3s linear infinite);
+			@include animation(slide-out 9s linear infinite);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
