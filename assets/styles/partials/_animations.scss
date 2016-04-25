@@ -2,10 +2,8 @@
 --Slide Out (for Artist Slider)
 -----------------------------------------------  */
 @include keyframes(slide-in) {
-  0%{ left: 0 }
-  33%{ left: -100vw }
-  66%{ left: -200vw }
-  100%{ left: -100vw }
+  33%{ opacity: 1 }
+  66%{ opacity: 0 }
 }
 
 /*----------------------------------------------   
