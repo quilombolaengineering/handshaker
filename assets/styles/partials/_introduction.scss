@@ -9,15 +9,12 @@
 }
 
 .introduction-title {
-	padding: 0 2em;
 }
 
 .introduction-line {
-	padding: 0 2em;
 }
 
 .introduction-text {
-	padding: 0 2em;
 }
 
 .introduction-image {
@@ -26,6 +23,7 @@
 	vertical-align: middle;
 	@include animation(slide-image-right ease-out 1.5s 1s forwards);
 	width: 250px;
+	opacity: 0;
 }
 
 /* COLORED BORDERS AND LINES */
