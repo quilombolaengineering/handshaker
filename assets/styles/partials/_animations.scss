@@ -1,7 +1,7 @@
 /*----------------------------------------------   
 --Slide Out (for Artist Slider)
 -----------------------------------------------  */
-@include keyframes(slide-in) {
+@include keyframes(slide-out) {
   33%{ opacity: 1 }
   66%{ opacity: 0 }
 }
