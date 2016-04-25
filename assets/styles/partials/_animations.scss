@@ -2,8 +2,8 @@
 --Slide Out (for Artist Slider)
 -----------------------------------------------  */
 @include keyframes(slide-out) {
-  0%{ margin: 100vw }
-  100%{ margin: 0vw }
+  0%{ margin-left: 100vw }
+  100%{ margin-left: 0vw }
 }
 
 /*----------------------------------------------   
