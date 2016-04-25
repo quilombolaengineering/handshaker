@@ -32,8 +32,6 @@
 	}
  	ul.horizontal-slider {
 		li {
-			@include bg-abs;
-			left: 0;
 			@include animation(slide-out 9s infinite both);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
 			@media (min-width: $mq-med) {
