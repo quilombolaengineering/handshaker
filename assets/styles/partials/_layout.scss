@@ -20,73 +20,64 @@ body {
     @include animation(fade-in ease-in-out 1.4s);
 }
 
+
 /*----------------------------------------------
 --Banner
 -----------------------------------------------  */
-
 .section-banner {
-    position: relative;
-    display: table;
-    width: 100%;
-    margin: 0 auto;
-    text-align: center;
-    height: 100vh;
-    color: $color-orange-alpha;
-    @include overlay($color-dark, 0.8);
-    .v-center {
-        display: table-cell;
-        vertical-align: middle;
-        position: relative;
-        z-index: 4;
-        padding: 0 5%;
-        h1 {
-            @include animation(fade-in ease-in-out 2s 0.5s both);
-        }
-        p {
-            font-size: 120%;
-            @include animation(fade-in ease-in-out 2s 1s both);
-        }
-    }
-
-img {
-  transition: border ease-out 2s forwards;
-  width: 78px;
-  border: 1px solid white;
-  border-radius: 40px;
-}
-
-img:hover {
-  border: 1px solid $color-orange;
-}
-
-/*----------------------------------------------
+	position: relative;
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 100vh;
+	color: $color-orange-alpha;
+	@include overlay($color-dark, 0.8);
+	.v-center {
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		z-index: 4;
+		padding: 0 5%;
+		h1 {
+			@include animation(fade-in ease-in-out 2s 0.5s both);
+		}
+	}
+	p {
+		font-size: 120%;
+		@include animation(fade-in ease-in-out 2s 1s both);
+	}
+, img {
+	transition: border ease-out 2s forwards;
+	width: 78px;
+	border: 1px solid white;
+	border-radius: 40px;
+, img:hover {
+	border: 1px solid $color-orange;
+	/*----------------------------------------------
 Unordered list
 -----------------------------------------------  */
-
-ul.keyframe-slider {
-    li {
-        @include bg-abs;
-        opacity: 0;
-        @include animation(fade-out 9s infinite both);
-        background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
-        @media (min-width: $mq-med) {
-            background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
-        }
-    }
-    li:nth-child(2) {
-        background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg);
-        @include animation-delay(6s);
-        @media (min-width: $mq-med) {
-            background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
-        }
-    }
-    li:nth-child(3) {
-        background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg);
-        @include animation-delay(3s);
-        @media (min-width: $mq-med) {
-            background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
-        }
-    }
+, ul.keyframe-slider {
+	li {
+		@include bg-abs;
+		opacity: 0;
+		@include animation(fade-out 9s infinite both);
+		background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
+		@media (min-width: $mq-med) {
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
+		}
+	}
+, li:nth-child(2) {
+	background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg);
+	@include animation-delay(6s);
+	@media (min-width: $mq-med) {
+		background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
+	}
+, li:nth-child(3) {
+	background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg);
+	@include animation-delay(3s);
+	@media (min-width: $mq-med) {
+		background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
+	}
 }
 
-}
