@@ -31,16 +31,6 @@
 }
 
 /*----------------------------------------------
---Introduction-Image-Slider
------------------------------------------------  */
-@include keyframes(intro-image-slider) {
-  0%{ opacity: 0 }
-  20%{ width: 250px; }
-  80%{ width: 350px; }
-  100%{ opacity: 1 }
-}
-
-/*----------------------------------------------
 --Stretch line
 -----------------------------------------------  */
 @include keyframes(stretch-line) {
