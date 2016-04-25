@@ -3,7 +3,7 @@
 	<div class="container-fluid organization-introduction">
 		<div class="v-center">
 			<!-- Introduction Image -->
-			<div class="col-xs-4 col-xs-offset-4 col-md-3 col-md-offset-3">
+			<div class="col-xs-4 col-md-3 col-md-offset-3">
 				<img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
 			</div>
 			<!-- Introduction Text -->
