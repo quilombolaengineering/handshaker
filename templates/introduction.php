@@ -1,7 +1,7 @@
 <section class="section-introduction">
 	<!-- Introduce Organization -->
 	<div class="container-fluid organization-introduction">
-		<div class="row">
+		<div class="v-center">
 			<!-- Introduction Image -->
 			<div class="col-xs-8 col-xs-offset-2">
 				<img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
