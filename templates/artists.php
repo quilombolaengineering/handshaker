@@ -1,6 +1,6 @@
 <section id="artists" class="section-artists">
         <!-- slider animation -->
-        <ul class="keyframe-slider">
+        <ul class="horizontal-slider">
                 <li></li>
                 <li></li>
                 <li></li>
