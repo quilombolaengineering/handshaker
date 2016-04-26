@@ -1,4 +1,4 @@
-<section id="footer" class="section-footer">
+<section id="footer">
 <div class="container-fluid section-footer">
 	<div class="col-md-3">
 		<h2>What We Do</h2>
