@@ -56,4 +56,14 @@
 			}
 		}
 	}
+	.yellow-button {
+		border-radius: 1px;
+		background-color: $color-yellow;
+		text-align: center;
+		color: $color-dark;
+		transition: ease-out 2s;
+	}
+	.yellow-button:hover {
+		background-color: white;
+	}
 }
