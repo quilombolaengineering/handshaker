@@ -5,7 +5,6 @@
                 <li></li>
                 <li></li>
         </ul>
-        <div class="v-center">
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 title">
@@ -39,5 +38,4 @@
 				</div>
 			</div>
 		</div>
-        </div>
 </section>
