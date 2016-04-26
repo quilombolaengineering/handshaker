@@ -66,4 +66,22 @@
 		margin: 2em;
 		padding: 2em;
 	}
+	.yellow-button {
+                margin: 1em auto;
+		padding: 0;
+                border: 1px solid $color-dark;
+                border-radius: 1px;
+                background-color: $color-yellow;
+                font-family: Lato;
+                text-align: center;
+                color: $color-dark;
+                transition: ease-out 0.5s;
+                width: 10em;
+                height: 2em;
+	}
+	.yellow-button:hover {
+                background-color: white;
+                border: 1px solid $color-orange;
+                color: $color-orange;
+	}
 }
