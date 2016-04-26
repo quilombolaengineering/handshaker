@@ -23,7 +23,7 @@
 					<p>Financing & Art Curation</p>
 				</div>
 				<div class="col-xs-12 col-md-4">
-					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1416x1416px.jpeg" /></a>
+					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/soyoon-1000x1000px.png" /></a>
 					<h1>Soyoon</h1>
 					<p>Portfolio & Graphic Management</p>
 				</div>
