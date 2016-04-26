@@ -16,26 +16,31 @@
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/headshot-zumbi-441x441px.png" /></a>
 					<h1>Zumbi</h1>
 					<p>Marketing & Content Development</p>
+					<div class="yellow-button">More Info</div>
 				</div>
                 		<div class="col-xs-12 col-md-6">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/zhangkaiqin-train-600x600px.png" /></a>
 					<h1>Kai Qin</h1>
 					<p>Financing & Art Curation</p>
+					<div class="yellow-button">More Info</div>
 				</div>
 				<div class="col-xs-12 col-md-4">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/soyoon-1000x1000px.png" /></a>
 					<h1>Soyoon</h1>
 					<p>Portfolio & Graphic Management</p>
+					<div class="yellow-button">More Info</div>
 				</div>
                 		<div class="col-xs-12 col-md-4">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1416x1416px.jpeg" /></a>
 					<h1>Munair</h1>
 					<p>Financial Account & Administration</p>
+					<div class="yellow-button">More Info</div>
 				</div>
                 		<div class="col-xs-12 col-md-4">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1200x1200px.jpg" /></a>
 					<h1>Zumbi</h1>
 					<p>English Translation & Copy Editing</p>
+					<div class="yellow-button">More Info</div>
 				</div>
 			</div>
 		</div>
