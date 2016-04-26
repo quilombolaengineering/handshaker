@@ -32,7 +32,7 @@ use Roots\Sage\Wrapper;
     ?>
     <?php
       do_action('get_header');
-      get_template_part('templates/portfolios');
+      get_template_part('templates/content');
     ?>
     <?php
       do_action('get_footer');
