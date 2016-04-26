@@ -31,6 +31,10 @@ use Roots\Sage\Wrapper;
       get_template_part('templates/artists');
     ?>
     <?php
+      do_action('get_header');
+      get_template_part('templates/portfolios');
+    ?>
+    <?php
       do_action('get_footer');
       get_template_part('templates/footer');
       wp_footer();
