@@ -25,11 +25,11 @@
 				<div class="col-xs-12 col-md-4">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1416x1416px.jpeg" /></a>
 					<h1>Soyoon</h1>
-					<p>Portfolio Management & Graphic Design</p>
+					<p>Portfolio & Graphic Management</p>
 				</div>
                 		<div class="col-xs-12 col-md-4">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1416x1416px.jpeg" /></a>
-					<h1>Zumbi</h1>
+					<h1>Munair</h1>
 					<p>Financial Account & Administration</p>
 				</div>
                 		<div class="col-xs-12 col-md-4">
