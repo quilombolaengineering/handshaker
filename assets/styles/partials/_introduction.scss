@@ -4,7 +4,6 @@
 
 .organization-summary {
 	position: relative;
-	border-bottom: 2px solid $color-orange;
 	margin: 10em 0;
 }
 
@@ -46,6 +45,7 @@
 
 .organization-story {
 	padding: 4em 2em;
+	border-top: 2px solid $color-orange;
 	background-color: $color-grey;
 	color: $color-light;
 }
