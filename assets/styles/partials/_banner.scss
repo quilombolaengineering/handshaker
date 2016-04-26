@@ -23,7 +23,7 @@
 	}
 	img {
 		transition: border ease-out 2s forwards;
-		transition: transform ease-out 4s infinite;
+		transition: rotate ease-out 4s infinite;
 		width: 78px;
 		border: 1px solid white;
 		border-radius: 40px;
@@ -31,7 +31,7 @@
 	}
 	img:hover {
 		border: 1px solid $color-orange;
-		transform: rotate(90deg);
+		transform: rotate(-90deg);
 	}
  	ul.keyframe-slider {
 		li {
