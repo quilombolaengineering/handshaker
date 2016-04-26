@@ -20,8 +20,8 @@
 		}
 	}
 	div {
-		padding-bottom: 2em;
-		margin-bottom: 2em;
+		padding: 2em 0;
+		margin: 2em 0;
 	}
 	p {
 		font-size: 120%;
@@ -64,5 +64,7 @@
 	.title {
 		background-color: $color-orange;
 		color: $color-dark;
+		margin-top: 0;
+		padding-top: 0;
 	}
 }

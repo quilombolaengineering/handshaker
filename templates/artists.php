@@ -9,8 +9,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div class="col-xs-12 col-md-4 title">
-					<h1>Principal Artists</h1>
-					<p>Handshake Founders</p>
+					<p>Principal Contributors</p>
 				</div>
                 		<div class="col-xs-12 col-md-4">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1416x1416px.jpeg" /></a>
