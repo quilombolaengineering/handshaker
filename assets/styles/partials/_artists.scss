@@ -9,9 +9,8 @@
 	height: 100vh;
 	color: $color-orange-alpha;
 	@include overlay($color-dark, 0.9);
-	.v-center {
-		display: table-cell;
-		vertical-align: middle;
+	.v-right {
+		vertical-align: right;
 		position: relative;
 		z-index: 4;
 		padding: 0 5%;
