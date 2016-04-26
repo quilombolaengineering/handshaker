@@ -29,6 +29,7 @@
 	}
 	img:hover {
 		border: 1px solid $color-orange;
+		transform: rotate(90deg) 4s infinite both;
 	}
  	ul.keyframe-slider {
 		li {
