@@ -58,10 +58,12 @@
 	.yellow-button {
 		border-radius: 1px;
 		background-color: $color-yellow;
+		font-family: Lato;
 		text-align: center;
 		color: $color-dark;
 		transition: ease-out 2s;
-		width: 100px;
+		width: 10em;
+		height: 2em;
 	}
 	.yellow-button:hover {
 		background-color: white;
