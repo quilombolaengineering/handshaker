@@ -13,7 +13,7 @@
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
                 		<div class="col-xs-12 col-md-6">
-					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/nosy-zumbi-1416x1416px.jpeg" /></a>
+					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/headshot-zumbi-441x441px.png" /></a>
 					<h1>Zumbi</h1>
 					<p>Marketing & Content Development</p>
 				</div>
