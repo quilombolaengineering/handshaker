@@ -8,7 +8,7 @@
         <div class="v-center">
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-xs-12 col-md-4">
+				<div class="col-xs-12 col-md-4 title">
 					<h1>Principal Artists</h1>
 					<p>Handshake Founders</p>
 				</div>

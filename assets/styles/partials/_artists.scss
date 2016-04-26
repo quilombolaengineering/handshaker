@@ -36,7 +36,7 @@
 		list-style-type: none;
 		li {
 			@include bg-abs;
-			@include animation(slide-out 90s linear infinite);
+			@include animation(slide-out 9s linear infinite);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
@@ -44,17 +44,21 @@
 		}
 	 	li:nth-child(2) {
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg);
-			@include animation-delay(60s);
+			@include animation-delay(6s);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
 			}
 		}
 		li:nth-child(3) {
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg);
-			@include animation-delay(30s);
+			@include animation-delay(3s);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
 			}
 		}
+	}
+	.title {
+		background-color: $color-orange;
+		color: $color-dark;
 	}
 }
