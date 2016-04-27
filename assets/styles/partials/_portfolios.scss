@@ -6,6 +6,10 @@
 	position: relative;
 	padding: 4em 2em;
 	border-top: 2px solid $color-orange;
-	background-color: $color-grey;
-	color: $color-light;
+	background-color: $color-light;
+	color: $color-dark;
+
+	h2 {
+		$color-dark;
+	}
 }
