@@ -3,7 +3,6 @@
 -----------------------------------------------  */
 
 .section-footer {
-	padding: 4em;
 	border-top: 2px solid $color-orange;
 	background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/eraser-moss.jpg");
 	z-index: 0;
@@ -13,9 +12,12 @@
 	position: relative;
 	height: 100%;
 	width: 100%;
-        top: 0;
-        left: 0;
 	background-color: $color-grey-alpha;
+	z-index: 1;
+}
+
+p {
+	padding: 1em;
 	color: $color-light;
 	text-transform: uppercase;
 	font-family: Lato;
@@ -24,10 +26,10 @@
   	font-style: normal;
   	line-height: 1.1em;
   	letter-spacing: -0.02em;
-	z-index: 1;
 }
 
 h2 {
+	padding: 1em;
 	margin: 0.5em 0;
   	font-size: 1.3em;
 }
