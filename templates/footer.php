@@ -24,6 +24,7 @@
 		<h2>Links</h2>
 		<p><i class="fa fa-facebook"></i></p>
 	</div>
+</div>
 </section>
 
 <footer class="content-info">
