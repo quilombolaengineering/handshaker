@@ -16,7 +16,7 @@
 	z-index: 1;
 }
 
-p {
+p, h2 {
 	padding: 1em;
 	color: $color-light;
 	text-transform: uppercase;
@@ -26,10 +26,10 @@ p {
   	font-style: normal;
   	line-height: 1.1em;
   	letter-spacing: -0.02em;
+	z-index: 2;
 }
 
 h2 {
-	padding: 1em;
 	margin: 0.5em 0;
   	font-size: 1.3em;
 }
