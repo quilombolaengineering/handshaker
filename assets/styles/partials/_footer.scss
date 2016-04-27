@@ -23,6 +23,8 @@
   		font-size: 1.3em;
 		margin-bottom: 0.5em;
 	}
+
+	@include overlay($color-dark, 0.5);
 }
 
 .about-text {
