@@ -1,7 +1,7 @@
 <section id="footer">
 <div class="container-fluid section-footer">
 	<div class="grey-overlay"></div>
-	<div class="col-md-3 footer-text">
+	<div class="col-md-3">
 		<h2>What We Do</h2>
 		<p>Our Mission</p>
 		<p>Get Involved</p>
