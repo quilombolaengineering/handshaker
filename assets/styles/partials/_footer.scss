@@ -7,6 +7,9 @@
 	border-top: 2px solid $color-orange;
 	background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/eraser-moss.jpg");
 	background-color: $color-grey;
+        background-size: cover;
+        background-repeat: repeat-x;
+        background-position: 0%;
 	color: $color-light;
 	text-transform: uppercase;
 	font-family: Lato;
