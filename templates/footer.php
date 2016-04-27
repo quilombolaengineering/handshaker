@@ -22,7 +22,7 @@
 	</div>
 	<div class="col-md-3">
 		<h2>Links</h2>
-		<p>Facebook</p>
+		<p><i class="fa fa-facebook"></i></p>
 	</div>
 </section>
 
