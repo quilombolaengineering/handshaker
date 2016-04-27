@@ -34,6 +34,7 @@ use Roots\Sage\Wrapper;
       do_action('get_header');
       get_template_part('templates/artists');
     ?>
+    [otw_portfolio otw_filterable] 
     <?php
       do_action('get_header');
       get_template_part('templates/content');
