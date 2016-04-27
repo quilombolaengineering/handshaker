@@ -28,6 +28,10 @@ use Roots\Sage\Wrapper;
     ?>
     <?php
       do_action('get_header');
+      get_template_part('templates/sponsors');
+    ?>
+    <?php
+      do_action('get_header');
       get_template_part('templates/artists');
     ?>
     <?php
