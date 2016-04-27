@@ -23,6 +23,8 @@
 	<div class="col-md-3">
 		<h2>Links</h2>
 		<p><i class="fa fa-facebook"></i></p>
+		<p><i class="fa fa-twitter"></i></p>
+		<p><i class="fa fa-instagram"></i></p>
 	</div>
 </div>
 </section>
