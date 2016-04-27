@@ -1,6 +1,6 @@
 <section id="footer">
 <div class="container-fluid section-footer">
-	<div class="grey-overlay"></div>
+<div class="v-center">
 	<div class="col-md-3">
 		<h2>What We Do</h2>
 		<p>Our Mission</p>
@@ -27,6 +27,7 @@
 		<p><i class="fa fa-twitter"></i></p>
 		<p><i class="fa fa-instagram"></i></p>
 	</div>
+</div>
 </div>
 </section>
 
