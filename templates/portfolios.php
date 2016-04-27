@@ -8,8 +8,8 @@
 		</div>
 		<div class="row">
 			<div class="col-md-3"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg" width="100%"> </div>
-			<div class="col-md-3"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg" width="100%"> </div>
-			<div class="col-md-3"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg" width="100%"> </div>
+			<div class="col-md-3"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg" width="100%"> </div>
+			<div class="col-md-3"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg" width="100%"> </div>
 			<div class="col-md-3"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg" width="100%"> </div>
 		</div>
 	</div>
