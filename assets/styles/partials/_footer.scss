@@ -9,11 +9,17 @@
 	z-index: 0;
 }
 
-.section-footer .grey-overlay{
-	position: absolute;
+.grey-overlay {
+	position: relative;
 	height: 100%;
 	width: 100%;
+        top: 0;
+        left: 0;
 	background-color: $color-grey-alpha;
+	z-index: 1;
+}
+
+.footer-text {
 	color: $color-light;
 	text-transform: uppercase;
 	font-family: Lato;
@@ -22,7 +28,7 @@
   	font-style: normal;
   	line-height: 1.1em;
   	letter-spacing: -0.02em;
-	z-index: 1;
+	z-index: 2;
 }
 
 h2 {
