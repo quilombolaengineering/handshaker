@@ -6,6 +6,11 @@
 	padding: 4em;
 	border-top: 2px solid $color-orange;
 	background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/eraser-moss.jpg");
+	z-index: 0;
+}
+
+.section-footer .grey-overlay{
+	background-color: $color-grey-alpha;
 	color: $color-light;
 	text-transform: uppercase;
 	font-family: Lato;
@@ -14,7 +19,7 @@
   	font-style: normal;
   	line-height: 1.1em;
   	letter-spacing: -0.02em;
-	@include overlay($color-grey, 0.2);
+	z-index: 0;
 }
 
 h2 {
