@@ -10,18 +10,22 @@
 			<div class="col-md-3"> 
 				Completed Projects
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png" width="100%">
+				What we have done.
 			</div>
 			<div class="col-md-3">
 				Current Projects
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg" width="100%"> 
+				What we are doing.
 			</div>
 			<div class="col-md-3"> 
 				Upcoming Projects
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-1600x2400px.png" width="100%"> 
+				What we will do.
 			</div>
 			<div class="col-md-3">
-				Award-Wining Projects
+				Decorated Projects
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg" width="100%"> 
+				What we have won.
 			</div>
 		</div>
 	</div>
