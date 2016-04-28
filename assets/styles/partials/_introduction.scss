@@ -5,6 +5,10 @@
 .organization-summary {
 	position: relative;
 	margin: 10em 0;
+
+	*:hover {
+		@include animation(rubber-band ease-in-out 3s);
+	}	
 }
 
 h1 {
@@ -18,14 +22,9 @@ h1 {
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
-	@include animation(slide-image-right ease-out 1.5s 1s forwards);
 	width: 250px;
 	opacity: 0;
 }
-
-.introduction-image:hover {
-		@include animation(rubber-band ease-in-out 3s);
-}	
 
 .introduction-title {
 	margin: 0;
