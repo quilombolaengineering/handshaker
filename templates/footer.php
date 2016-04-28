@@ -28,10 +28,12 @@
 	        </div>
 	        <div class="col-md-3">
                 	<h2>Links</h2>
-			<div class="col-md-3"><span class="glyphicon glyphicon-search"></span>
-			<div class="col-md-3"><span class="glyphicon glyphicon-user"></span>
-			<div class="col-md-3"><span class="glyphicon glyphicon-leaf"></span>
-			<div class="col-md-3"><span class="glyphicon glyphicon-fire"></span>
+			<div class="col-md-2"><span class="glyphicon glyphicon-link"></span></div>
+			<div class="col-md-2"><span class="glyphicon glyphicon-search"></span></div>
+			<div class="col-md-2"><span class="glyphicon glyphicon-user"></span></div>
+			<div class="col-md-2"><span class="glyphicon glyphicon-leaf"></span></div>
+			<div class="col-md-2"><span class="glyphicon glyphicon-fire"></span></div>
+			<div class="col-md-2"><span class="glyphicon glyphicon-envelope"></span></div>
         	</div>
 	</div>
 </section>
