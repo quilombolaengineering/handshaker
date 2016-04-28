@@ -10,7 +10,7 @@
 	text-align: center;
 	
 	img {
-		@include animation(rubber-band ease-in-out 2s 0.5s);
+		transition: width ease-out 1s 0.5s infinite;
 		margin: 1em auto;
 		width: 80%
 	}
