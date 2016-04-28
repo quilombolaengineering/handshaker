@@ -25,11 +25,12 @@
 		}
 	}
 	p {
-		font-size: 120%;
+		font-size: 90%;
 		@include animation(fade-in ease-in-out 2s 1s both);
 	}
-	h1 {
-		font-size: 160%;
+	h2 {
+		font-size: 120%;
+		margin-bottom: 0.5em;
 		@include animation(fade-in ease-in-out 2s 1s both);
 	}
 	img {
@@ -45,7 +46,7 @@
 		li {
 			@include bg-abs;
 			opacity: 0;
-			@include animation(fade-out 9s infinite both);
+			@include animation(fade-out 90s infinite both);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
@@ -53,36 +54,17 @@
 		}
 	 	li:nth-child(2) {
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg);
-			@include animation-delay(6s);
+			@include animation-delay(60s);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
 			}
 		}
 		li:nth-child(3) {
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg);
-			@include animation-delay(3s);
+			@include animation-delay(30s);
 			@media (min-width: $mq-med) {
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/crystalcubes-2000x1350px.jpeg);
 			}
 		}
-	}
-	.yellow-button {
-		@include animation(fade-in ease-in-out 2s 2s both);
-                margin: 1em auto;
-                border: 1px solid $color-dark;
-                border-radius: 1px;
-                background-color: $color-yellow;
-                font-family: Lato;
-                text-align: center;
-                color: $color-dark;
-                transition: ease-out 0.5s;
-                width: 10em;
-                height: 2em;
-	}
-	.yellow-button:hover {
-                background-color: white;
-                border: 1px solid $color-orange;
-                color: $color-orange;
-
 	}
 }
