@@ -36,6 +36,7 @@
 		border-radius: 40px;
 	}
 	img:hover {
+                @include animation(tada ease-in 3s);
 		border: 1px solid $color-orange;
 	}
  	ul.horizontal-slider {
