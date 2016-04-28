@@ -6,6 +6,7 @@
 	margin: 0 auto;
 	padding: 2em 0;
 	text-align: center;
+	text-transform: uppercase;
 	color: $color-light;
 	@include overlay($color-dark, 0.9);
 	.v-center {
