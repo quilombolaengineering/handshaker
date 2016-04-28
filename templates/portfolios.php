@@ -4,7 +4,11 @@
 <h1>Art Portfolios</h1>
 <p>This is a collection of art portfolios. Our art collection is divided into current, completed, planned, and award-wining projects.</p>
 
-<p><b>Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh</b>. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. <b>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos</b>. <i>Quisque volutpat condimentum velit</i>. Nulla facilisi. Integer lacinia sollicitudin massa. Cras metus. Sed aliquet risus a tortor. Integer id quam. Morbi mi. <i>Sed non quam</i>. </p>
+<p>The <b>Decorated Projects</b> section below is a collection of art that has won awards.</b> 
+
+<p>If you would like to collaborate with us as an <i>artist-in-residence</i>, please review <b>Upcoming Projects</b> section. It is essentially a <i>call for entry / call for submission</i>. The curatorial plans submitted by artists like yourself are presented there. 
+
+<p>Art projects that we are presently working on are categorized in the <b>Current Projects</b> section. Finally, all of our completed artwork has been categorized under the <b>Completed Projects</> section.</p> 
 		</div>
 		<div class="row">
 			<div class="col-md-3"> 
