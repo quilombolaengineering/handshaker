@@ -8,6 +8,12 @@
 	text-align: center;
 	text-transform: uppercase;
 	color: $color-light;
+        font-family: Lato;
+        font-size: 0.8em;
+        font-weight: 700;
+        font-style: normal;
+        line-height: 1.1em;
+        letter-spacing: -0.02em;
 	@include overlay($color-dark, 0.9);
 	.v-center {
 		display: table-cell;
@@ -21,6 +27,10 @@
 	}
 	p {
 		font-size: 120%;
+		@include animation(fade-in ease-in-out 2s 1s both);
+	}
+	h1 {
+		font-size: 160%;
 		@include animation(fade-in ease-in-out 2s 1s both);
 	}
 	img {
