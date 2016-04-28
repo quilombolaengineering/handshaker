@@ -28,9 +28,14 @@
         </div>
         <div class="col-md-3">
                 <h2>Links</h2>
-                <p><i class="fa fa-facebook"></i></p>
-                <p><i class="fa fa-twitter"></i></p>
-                <p><i class="fa fa-instagram"></i></p>
+		<span class="social social-facebook"></span>
+		<span class="social social-twitter"></span>
+		<span class="social social-linked-in"></span>
+		<span class="social social-paypal"></span>
+		<span class="social social-skype"></span>
+		<span class="social social-instagram"></span>
+		<span class="social social-whatsapp"></span>
+		<span class="social social-e-mail-envelope"></span>
         </div>
 	</div>
 </section>
