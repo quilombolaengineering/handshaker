@@ -24,7 +24,7 @@
 	        </div>
 	        <div class="col-md-3">
 	                <h2>About Us</h2>
-	                <p class="about-text">Handshaker is a Wordpress Theme created by Quilombola Engineering. This theme was designed to showcase art portfolios for a team of artists living in China.</p>
+	                <p class="about-text">This theme was designed to showcase art portfolios for a team of artists living in Shenzhen, China. For best results, use only high resolution images.</p>
 	        </div>
 	        <div class="col-md-3">
                 	<h2>Links</h2>
@@ -34,6 +34,8 @@
 			<div class="col-xs-2"><span class="glyphicon glyphicon-leaf"></span></div>
 			<div class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
 			<div class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
+	                <h2>About Us</h2>
+	                <p class="about-text">Handshaker is a Wordpress Theme created by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
         	</div>
 	</div>
 </section>
