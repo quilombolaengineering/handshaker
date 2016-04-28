@@ -39,6 +39,9 @@
 		border: 1px solid white;
 		border-radius: 40px;
 	}
+	span:hover {
+		@include animation(rubber-band ease-in-out 3s);
+	}
 	img:hover {
 		transform: rotate(-90deg);
 	}
