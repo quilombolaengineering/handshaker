@@ -24,7 +24,7 @@
         </div>
         <div class="col-md-3">
                 <h2>About Us</h2>
-                <p class="about-text">Handshaker is a Wordpress Theme created by Quilombola Engineering. Lonsectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>
+                <p class="about-text">Handshaker is a Wordpress Theme created by Quilombola Engineering. This theme was designed to showcase art portfolios for a team of artists living in China.</p>
         </div>
         <div class="col-md-3">
                 <h2>Links</h2>

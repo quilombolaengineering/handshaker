@@ -10,11 +10,9 @@
 			<div class="col-xs-12 col-md-6 introduction-title"><h2>Handshaker</h2></div>
 			<div class="col-xs-12 col-md-6 introduction-line"><div class="colored-line"></div></div>
 			<div class="col-xs-12 col-md-6 introduction-text">Handshaker is a Wordpress Theme created by Quilombola Engineering. 
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-				labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-				laboris nisi ut aliquip ex ea commodo consequat.</div>
-			<div class="col-xs-12 col-md-6 introduction-text"></div>
-			<div class="col-xs-12 col-md-6 introduction-text"><div class="yellow-button">Read More</div></div>
+				In this section you should summarize what your organization is about. This summary shoul be no more
+				than four sentences. This section is a brief "about us" or a short summary of the purpose 
+				of the organization or this website in particular.</div>
 			</div>
 		</div>
 	</div>
@@ -22,9 +20,7 @@
 		<div class="row">
 			<div class="col-xs-12">
 <h1>Introduction</h1>
-<p>This is a compelling story about Handshaker and its mission to change the world. In this section I will make you fall in love with Handshaker. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla. </p>
-
-<p>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. </p>
+<p>This is a compelling story about Handshaker and its mission to change the world. In this section I will make you fall in love with Handshaker. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur sodales ligula in libero. Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Maecenas mattis. Sed convallis tristique sem. Proin ut ligula vel nunc egestas porttitor. Morbi lectus risus, iaculis vel, suscipit quis, luctus non, massa. Fusce ac turpis quis ligula lacinia aliquet. <i>Lorem ipsum dolor sit amet, consectetur adipiscing elit</i>. Mauris ipsum. Nulla metus metus, ullamcorper vel, tincidunt sed, euismod in, nibh. </p>
 
 <p>Quisque volutpat condimentum velit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. <b>Maecenas mattis</b>. Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. <i>Aenean quam</i>. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. </p>
 
