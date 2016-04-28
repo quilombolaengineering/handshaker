@@ -1,90 +1,77 @@
-/*----------------------------------------------
---Footer
------------------------------------------------  */
-
 .section-footer {
-	padding: 4em;
-	border-top: 2px solid $color-orange;
-	background-color: $color-grey-alpha;
-	color: $color-light;
-	text-transform: uppercase;
-	font-family: Lato;
-  	font-size: 0.8em;
-  	font-weight: 700;
-  	font-style: normal;
-  	line-height: 1.1em;
-  	letter-spacing: -0.02em;
-
-	div {
-		margin-top: 1em;
-	}
-
-	h2 {
-  		font-size: 1.3em;
-		margin-bottom: 0.5em;
-	}
-}
-
-.about-text {
-	text-transform: capitalize;
-}
-
-/*
- * Section 3 - Social
- */
-.social {
+	position: relative;
+	display: table;
 	width: 100%;
-	background: rgba(0, 0, 0, 0.7);
-	color: #FFF;
-}
-.social .row {
-	padding: 50px;
+	margin: 0 auto;
 	text-align: center;
-}
-.social .social-header {
-	padding-bottom: 20px;
-	text-align: center;
-}
-.social h2 {
-	font-size: 40px;
-	font-family: "Sanchez",sans-serif;
-	font-weight: bold;
-}
-.social .row .social-box {
-	float: none;
-	display: inline-block;
-	margin: 30px 0;
-}
-.social .row .social-box .it-facebook .icon:hover {
-	background: #3B5998;
-}
-.social .row .social-box .it-twitter .icon:hover {
-	background: #0084B4;
-}
-.social .row .social-box .it-google .icon:hover {
-	background: #D34836;
-}
-.social .row .social-box .it-instagram .icon:hover {
-	background: #3F729b;
-}
-.social .row .social-box .it-github .icon:hover {
-	background: #000;
-}
-.icon-item .icon {
-	width: 90px;
-	height: 90px;
-	border-radius: 45px;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: 10px !important;
-	color: #FFF;
-	border: 4px solid #FFF;
-}
-.icon-item .icon a {
-	color: #FFF;
-}
-.icon-item .icon i {
-	font-size: 50px;
-	line-height: 1.7;
+	height: 100vh;
+	color: $color-orange-alpha;
+	@include overlay($color-dark, 0.8);
+	.v-center {
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		z-index: 4;
+		padding: 0 5%;
+		h1 {
+			@include animation(fade-in ease-in-out 2s 0.5s both);
+		}
+	}
+	p {
+		font-size: 120%;
+		@include animation(fade-in ease-in-out 2s 1s both);
+	}
+	img {
+		transition: all ease-out 4s;
+		width: 78px;
+		border: 1px solid white;
+		border-radius: 40px;
+	}
+	img:hover {
+		transform: rotate(-90deg);
+	}
+ 	ul.keyframe-slider {
+		li {
+			@include bg-abs;
+			opacity: 0;
+			@include animation(fade-out 9s infinite both);
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
+			@media (min-width: $mq-med) {
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
+			}
+		}
+	 	li:nth-child(2) {
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg);
+			@include animation-delay(6s);
+			@media (min-width: $mq-med) {
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
+			}
+		}
+		li:nth-child(3) {
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg);
+			@include animation-delay(3s);
+			@media (min-width: $mq-med) {
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/crystalcubes-2000x1350px.jpeg);
+			}
+		}
+	}
+	.yellow-button {
+		@include animation(fade-in ease-in-out 2s 2s both);
+                margin: 1em auto;
+                border: 1px solid $color-dark;
+                border-radius: 1px;
+                background-color: $color-yellow;
+                font-family: Lato;
+                text-align: center;
+                color: $color-dark;
+                transition: ease-out 0.5s;
+                width: 10em;
+                height: 2em;
+	}
+	.yellow-button:hover {
+                background-color: white;
+                border: 1px solid $color-orange;
+                color: $color-orange;
+
+	}
 }

@@ -1,4 +1,4 @@
-<section id="footer" class="section-banner">
+<section id="footer" class="section-footer">
 	<!-- slider animation -->
 	<ul class="keyframe-slider">
 		<li></li>
