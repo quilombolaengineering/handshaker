@@ -12,19 +12,22 @@
 				<div class="project-category-description">What we have done.</div>
 			</div>
 			<div class="col-md-3">
-				Current Projects
+				<div class="project">
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg" width="100%"> 
-				What we are doing.
+				<div class="project-category">Current Projects</div>
+				<div class="project-category-description">What we are doing.</div>
 			</div>
 			<div class="col-md-3"> 
-				Upcoming Projects
+				<div class="project">
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-1600x2400px.png" width="100%"> 
-				What we will do.
+				<div class="project-category">Upcoming Projects</div>
+				<div class="project-category-description">What we will do.</div>
 			</div>
 			<div class="col-md-3">
-				Decorated Projects
+				<div class="project">
 				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg" width="100%"> 
-				What we have won.
+				<div class="project-category">Decorated Projects</div>
+				<div class="project-category-description">What we have won.</div>
 			</div>
 		</div>
 	</div>
