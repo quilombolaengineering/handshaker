@@ -52,8 +52,17 @@
 	}
 }
 
-.projects {
+.project {
+	position: relative;
+	z-index: 0;
+}
+
+.project-category {
+	position: absolute;
+	left: 0;
+	top: 0;
 	font-weight: 900;
 	font-family: Lato;
 	text-transform: uppercase;
+	z-index: 1;
 }
