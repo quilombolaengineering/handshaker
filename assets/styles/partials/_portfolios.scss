@@ -64,5 +64,17 @@
 	font-weight: 900;
 	font-family: Lato;
 	text-transform: uppercase;
+	color: $color-light;
+	z-index: 1;
+}
+
+.project-category-description {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	font-weight: 200;
+	font-family: Lato;
+	text-transform: uppercase;
+	color: $color-light;
 	z-index: 1;
 }
