@@ -19,20 +19,35 @@
 	}
 
 	div {
-		border: 1px solid $color-orange;
-		box-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+		padding: 2em;
+		line-height: 3em;
 	}
 
-	div:hover {
-		@include animation(flip ease-out 2.5s 0.5s);
-	}
+	.projects {
+		div {
+			border: 1px solid $color-orange;
+			box-shadow: 0px 0px 1px rgba(0,0,0,0.7);
+		}
 
-	.completed-projects {
-		background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png");
-	}
+		div:hover {
+			@include animation(flip ease-out 2.5s 0.5s);
+		}
 
-	.current-projects {
-		background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg");
+		.completed-projects {
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png");
+		}
+
+		.current-projects {
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg");
+		}
+
+		.upcoming-projects {
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-1600x2400px.png");
+		}
+
+		.decorated-projects {
+			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg");
+		}
 	}
 }
 
