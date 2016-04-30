@@ -24,8 +24,6 @@
 
 	.projects {
 		line-height: 2em;
-		padding: 0;
-		margin: 0;
 
 		h1 {
 			padding: 1em 0;
@@ -38,6 +36,8 @@
 		}
 
 		p {
+			padding: 0;
+			margin: 0;
 			font-size: 0.75em;
 	        	font-weight: 200;
         		font-family: Lato;
