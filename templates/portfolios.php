@@ -10,7 +10,7 @@
 				<p>What we have done.</p>
 			</div>
 			<div class="col-md-3 current-projects"> 
-				<h1>Completed Projects</h1>
+				<h1>Current Projects</h1>
 				<p>What we are doing.</p>
 			</div>
 			<div class="col-md-3 upcoming-projects"> 
