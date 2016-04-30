@@ -1,4 +1,14 @@
 /*----------------------------------------------   
+--Slide Up (for Portfolio Projects)
+-----------------------------------------------  */
+@include keyframes(slide-up) {
+  0%{ opacity: 0; bottom: -100% }
+  20%{ opacity: 1; bottom: 0% }
+  80%{ opacity: 1; bottom: 0% }
+  90%{ opacity: 0; bottom: -100% }
+}
+
+/*----------------------------------------------   
 --Slide Out (for Artist Slider)
 -----------------------------------------------  */
 @include keyframes(slide-out) {
