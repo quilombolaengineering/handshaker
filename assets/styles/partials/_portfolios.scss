@@ -24,6 +24,8 @@
 
 	.projects {
 		line-height: 2em;
+		background-color: $color-dark-alpha;
+		transition: background-color ease-in 1s 0.5s forwards;
 
 		h1 {
 			padding: 1em 0;
@@ -66,6 +68,7 @@
 		}
 
 		.completed-projects:hover {
+			background-color: transparent;
 			p {
 				opacity: 1;
 			}
@@ -81,6 +84,7 @@
 		}
 
 		.current-projects:hover {
+			background-color: transparent;
 			p {
 				opacity: 1;
 			}
@@ -96,6 +100,7 @@
 		}
 
 		.upcoming-projects:hover {
+			background-color: transparent;
 			p {
 				opacity: 1;
 			}
@@ -111,6 +116,7 @@
 		}
 
 		.decorated-projects:hover {
+			background-color: transparent;
 			p {
 				opacity: 1;
 			}
