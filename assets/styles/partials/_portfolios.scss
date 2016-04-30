@@ -10,6 +10,12 @@
 	color: $color-dark;
 	text-align: center;
 
+        a:hover {
+                audio {
+                        src: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3");
+                }
+        }
+
 	h1 {
 		color: $color-dark;
 	}
