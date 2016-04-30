@@ -18,25 +18,25 @@
 		margin: 2em;
 	}
 
-	div {
-		line-height: 3em;
-	}
-
 	.projects {
 		h1 {
+			margin: 3em;
 			font-size: 1.75em;
 	        	font-weight: 900;
         		font-family: Lato;
 		        text-transform: uppercase;
+			line-height: 3em;
 	        	color: $color-light;
 			@include animation(slide-down 9s infinite both);
 		}
 
 		p {
+			margin: 3em;
 			font-size: 0.75em;
 	        	font-weight: 200;
         		font-family: Lato;
 		        text-transform: capitalize;
+			line-height: 3em;
 	        	color: $color-orange;
 			@include animation(slide-up 9s infinite both);
 		}
