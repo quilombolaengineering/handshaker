@@ -1,4 +1,6 @@
 <section id="banner" class="section-banner">
+	<!-- audio -->
+	<audio id="hover-audio" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3" preload="auto" type="audio/mpeg"> </audio>
 	<!-- slider animation -->
 	<ul class="keyframe-slider">
 		<li></li>
