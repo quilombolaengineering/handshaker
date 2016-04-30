@@ -6,8 +6,8 @@
 		</div>
 		<div class="row projects">
 			<div class="col-md-3 completed-projects"> 
-				<h1>Completed Projects</h1>
-				<p>What we have done.</p>
+				<div class="category"><h1>Completed Projects</h1></div>
+				<div class="category-description"><p>What we have done.</p></div>
 			</div>
 			<div class="col-md-3 current-projects"> 
 				<h1>Current Projects</h1>
