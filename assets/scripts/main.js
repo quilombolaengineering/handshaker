@@ -19,6 +19,10 @@
     'common': {
       init: function() {
         // JavaScript to be fired on all pages
+	function pop(){
+	  var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3');
+	audio.play();
+	}
       },
       finalize: function() {
         // JavaScript to be fired on all pages, after page specific JS is fired
