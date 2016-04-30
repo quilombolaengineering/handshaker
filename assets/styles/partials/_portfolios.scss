@@ -21,7 +21,6 @@
 	}
 
 	div {
-		min-height: 100vh;
 		line-height: 3em;
 	}
 
@@ -55,24 +54,36 @@
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
+                        @media (min-width: $mq-med) {
+                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
+                        }
 		}
 
 		.current-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
+                        @media (min-width: $mq-med) {
+                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
+                        }
 		}
 
 		.upcoming-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-1600x2400px.png");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
+                        @media (min-width: $mq-med) {
+                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-4000x2700px.jpg);
+                        }
 		}
 
 		.decorated-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
+                        @media (min-width: $mq-med) {
+                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
+                        }
 		}
 	}
 }
