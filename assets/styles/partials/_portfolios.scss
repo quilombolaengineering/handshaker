@@ -33,7 +33,7 @@
 		        text-transform: uppercase;
 			background-color: $color-dark-alpha;
 	        	color: $color-light;
-			@include animation(slide-down 10s infinite both);
+			@include animation(slide-down 1s infinite both);
 		}
 
 		p {
@@ -45,7 +45,7 @@
 		        text-transform: capitalize;
 	        	color: $color-orange;
 			background-color: $color-light-alpha;
-			@include animation(slide-up 10s infinite both);
+			@include animation(slide-up 1s infinite both);
 		}
 
 		div {
