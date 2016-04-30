@@ -12,12 +12,12 @@
 
 	h1 {
 		color: $color-dark;
-		@include animation(fade-in ease-in-out 2s 0.5s both);
+		@include animation(slide-down ease-in 10s 1s both);
 	}
 
 	p {
 		margin: 2em;
-		@include animation(fade-in ease-in-out 2s 1s both);
+		@include animation(slide-up ease-in 10s 1s both);
 	}
 
 	div {
@@ -29,8 +29,8 @@
 		h1 {
 	        	font-weight: 900;
         		font-family: Lato;
+			font-size: 2em;
 		        text-transform: uppercase;
-			width: 80%;
 	        	color: $color-light;
 		}
 
