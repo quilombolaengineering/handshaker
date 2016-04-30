@@ -48,7 +48,7 @@
         function sploob(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/sploob.m4a'); audio.play(); }
 var  mn = $(".main-nav");
     mns = "main-nav-scrolled";
-    hdr = $('section-ribbon').height();
+    hdr = $('ribbon').height();
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
