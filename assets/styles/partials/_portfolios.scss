@@ -12,12 +12,10 @@
 
 	h1 {
 		color: $color-dark;
-		@include animation(slide-down 9s infinite both);
 	}
 
 	p {
 		margin: 2em;
-		@include animation(slide-up 9s infinite both);
 	}
 
 	div {
@@ -31,6 +29,7 @@
         		font-family: Lato;
 		        text-transform: uppercase;
 	        	color: $color-light;
+			@include animation(slide-down 9s infinite both);
 		}
 
 		p {
@@ -39,6 +38,7 @@
         		font-family: Lato;
 		        text-transform: capitalize;
 	        	color: $color-orange;
+			@include animation(slide-up 9s infinite both);
 		}
 
 		div {
