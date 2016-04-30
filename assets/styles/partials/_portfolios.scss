@@ -12,12 +12,12 @@
 
 	h1 {
 		color: $color-dark;
-		@include animation(slide-down ease-in 10s 1s both);
+		@include animation(slide-down 9s infinite both);
 	}
 
 	p {
 		margin: 2em;
-		@include animation(slide-up ease-in 10s 1s both);
+		@include animation(slide-up 9s infinite both);
 	}
 
 	div {
