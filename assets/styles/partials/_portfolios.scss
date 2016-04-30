@@ -31,6 +31,7 @@
 	        	font-weight: 900;
         		font-family: Lato;
 		        text-transform: uppercase;
+			background-color: $color-dark-alpha;
 	        	color: $color-light;
 			@include animation(slide-down 9s infinite both);
 		}
@@ -43,6 +44,7 @@
         		font-family: Lato;
 		        text-transform: capitalize;
 	        	color: $color-orange;
+			background-color: $color-light-alpha;
 			@include animation(slide-up 9s infinite both);
 		}
 
