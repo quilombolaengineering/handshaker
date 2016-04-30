@@ -24,6 +24,10 @@ use Roots\Sage\Wrapper;
     ?>
     <?php
       do_action('get_header');
+      get_template_part('templates/navigation');
+    ?>
+    <?php
+      do_action('get_header');
       get_template_part('templates/introduction');
     ?>
     <?php
