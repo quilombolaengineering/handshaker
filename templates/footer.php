@@ -30,12 +30,12 @@
 	        <div class="col-md-3">
                 	<h2>Links</h2>
 	                <p class="about-text">Learn more about Handshaker and Quilombola Engineering:</p>
-			<div class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
-			<div class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
-			<div class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
-			<div class="col-xs-2"><span class="glyphicon glyphicon-phone"></span></div>
-			<div class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
-			<div class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
+			<div onmouseover="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
+			<div onmouseover="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
+			<div onmouseover="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
+			<div onmouseover="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-phone"></span></div>
+			<div onmouseover="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
+			<div onmouseover="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
 	                <h2>Handshaker</h2>
 	                <p class="about-text">Handshaker is a Wordpress Theme created by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
         	</div>
@@ -45,6 +45,7 @@
 <script>
         function pop(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3'); audio.play(); }
         function tick(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/tick.mp3'); audio.play(); }
+        function sploob(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/sploob.m4a'); audio.play(); }
 var  mn = $(".main-nav");
     mns = "main-nav-scrolled";
     hdr = $('section-banner').height();
