@@ -29,6 +29,7 @@
 	        </div>
 	        <div class="col-md-3">
                 	<h2>Links</h2>
+	                <p class="about-text">Feel free to explore these links to learn more about Handshaker and Quilombola Engineering:</p>
 			<div class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
 			<div class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
 			<div class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
