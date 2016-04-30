@@ -47,7 +47,7 @@
         function tick(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/tick.mp3'); audio.play(); }
 var  mn = $(".main-nav");
     mns = "main-nav-scrolled";
-    hdr = $('banner').height();
+    hdr = $('section-banner').height();
 
 $(window).scroll(function() {
   if( $(this).scrollTop() > hdr ) {
