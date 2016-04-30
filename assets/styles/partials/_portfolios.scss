@@ -53,22 +53,22 @@
 
 		.completed-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png");
-			background-size: auto 100%;
+			background-size: 100% auto%;
 		}
 
 		.current-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg");
-			background-size: auto auto;
+			background-size: 100% auto;
 		}
 
 		.upcoming-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-1600x2400px.png");
-			background-size: auto auto;
+			background-size: 100% auto;
 		}
 
 		.decorated-projects {
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg");
-			background-size: auto auto;
+			background-size: 100% auto;
 		}
 	}
 }
