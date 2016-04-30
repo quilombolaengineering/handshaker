@@ -25,9 +25,8 @@
 	        <div class="col-md-3">
 	                <h2>About Us</h2>
 	                <p class="about-text">This theme was designed to showcase art portfolios for a team of artists living in Shenzhen, China. For best results, use only high resolution images.</p>
-<div onmouseover="pop()">
-  <p id="arbitrary-text">hover your mouse over this to hear a popping sound.</p>
-</div>
+			<div onmouseover="pop()"> <p id="popper">hover your mouse over this to hear a popping sound.</p> </div>
+			<div onmousedown="tick()"> <p id="ticker">click this for a tick.</p> </div>
 	        </div>
 	        <div class="col-md-3">
                 	<h2>Links</h2>
@@ -44,8 +43,6 @@
 </section>
 
 <script>
-        function pop(){
-          var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3');
-        audio.play();
-        }
+        function pop(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3'); audio.play(); }
+        function tick(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/tick.mp3'); audio.play(); }
 </script>
