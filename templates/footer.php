@@ -49,6 +49,7 @@
 </script>
 
 <script type="text/javascript">
+	(function() {
 var  mn = $(".main-nav");
     mns = "main-nav-scrolled";
     hdr = $('banner').height();
@@ -60,4 +61,5 @@ $(window).scroll(function() {
     mn.removeClass(mns);
   }
 });
+	);
 </script>
