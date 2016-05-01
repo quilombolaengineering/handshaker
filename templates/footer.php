@@ -46,7 +46,7 @@
         function pop(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/pop.mp3'); audio.play(); }
         function tick(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/tick.mp3'); audio.play(); }
         function sploob(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/sploob.m4a'); audio.play(); }
-	function() { var  mn = $(".main-nav"); mns = "main-nav-scrolled"; hdr = $('banner').height();
+	function nav() { var  mn = $(".main-nav"); mns = "main-nav-scrolled"; hdr = $('banner').height();
 		$(window).scroll(function() { if( $(this).scrollTop() > hdr ) { mn.addClass(mns); } else { mn.removeClass(mns); } });
 	}
 </script>
