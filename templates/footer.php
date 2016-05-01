@@ -61,5 +61,5 @@ $(window).scroll(function() {
     mn.removeClass(mns);
   }
 });
-	);
+	)
 </script>
