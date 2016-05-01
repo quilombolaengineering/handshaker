@@ -2,9 +2,11 @@
 --Navigation
 -----------------------------------------------  */
 
-.section-ribbon,
+.orange-ribbon,
 .main-nav {
         position: relative;
+}
+.main-nav {
   	height: 80px;
   	z-index: 150;
   	margin-bottom: -80px;
@@ -14,7 +16,7 @@
         text-align: center;
 }
 
-ribbon, .main-nav-scrolled {
+banner, .main-nav-scrolled {
   	position: fixed;
   	width: 100%;
   	top: 0;
