@@ -1,4 +1,4 @@
-<section id="navigation" class="section=navigation">
+<section id="navigation" class="section-navigation">
     <div class="row">
         <a class="logo" href="#">P/F</a>
 
