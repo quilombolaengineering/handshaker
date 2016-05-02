@@ -41,9 +41,11 @@
 		margin-bottom: 22px;
 		font-family: Lato;
 		font-size: 12px;
+		font-size: 0.834vw;
 		font-weight: 900;
 	  	line-height: 1.5;
 		width: 30px;
+		width: 2.085vw;
 	}
 	@media only screen and (max-width: 766px) {
 	  	.logo {
@@ -78,6 +80,7 @@
 	nav ul li {
 	  display: inline-block;
 	  margin-left: 35px;
+	  margin-left: 2.4325vw;
 	  line-height: 1.5;
 	}
 	@media only screen and (max-width: 766px) {
@@ -91,8 +94,8 @@
 		color: $color-light;
 		text-transform: uppercase;
 		font-size: 12px;
+		font-size: 0.834vw;
 		font-family: Lato;
-		font-size: 12px;
 		font-weight: 900;
 	}
 	nav ul a:hover {
