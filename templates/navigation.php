@@ -7,7 +7,6 @@
             <span></span>
             <span></span>
         </div>
-
         <nav>
             <ul>
                 <li><a href=".sec01">Section 01</a></li>
@@ -16,6 +15,5 @@
                 <li><a href=".sec04">Section 04</a></li>
             </ul>
         </nav>
-
     </div> <!-- / row -->
 </section>
