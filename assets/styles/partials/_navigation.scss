@@ -95,6 +95,12 @@
 		font-size: 12px;
 		font-weight: 900;
 	}
+}
+@media only screen and (max-width: 766px) {
+  	.section-navigation {
+    		padding-top: 25px;
+  	}
+}
 
 	.open-nav {
 	  max-height: 400px !important;
@@ -136,10 +142,3 @@
 	  background: $color-light;
 	  display: block;
 	}
-}
-@media only screen and (max-width: 766px) {
-  	.section-navigation {
-    		padding-top: 25px;
-  	}
-}
-
