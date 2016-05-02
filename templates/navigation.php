@@ -1,6 +1,6 @@
 <section id="navigation" class="section-navigation">
     <div class="row">
-        <a class="logo" href="#">P/F</a>
+        <a class="logo" href="#"><img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/faded-handshaker-logo-1000x1000px.png" width="100%"></a>
 
         <div class="mobile-toggle">
             <span></span>
