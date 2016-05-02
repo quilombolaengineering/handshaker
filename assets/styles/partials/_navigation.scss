@@ -18,6 +18,14 @@
   padding-bottom: 6px;
   font-family: "Montserrat", sans-serif;
   box-shadow: 0 2px 3px rgba(0,0,0,.4);
+
+.row {
+  width: 100%;
+  max-width: 940px;
+  margin: 0 auto;
+  position: relative;
+  padding: 0 2%;
+}
 }
 @media only screen and (max-width: 766px) {
   .section-navigation {
@@ -124,14 +132,6 @@ nav ul a {
   border-radius: 1000px;
   background: $color-light;
   display: block;
-}
-
-.row {
-  width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 2%;
 }
 
 * {
