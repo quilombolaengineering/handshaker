@@ -9,7 +9,7 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#about">About</a></li>
+                <li><a href="#about"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>About</a></li>
                 <li><a href="#introduction">Introduction</a></li>
                 <li><a href="#artists">Artists</a></li>
                 <li><a href="#portfolios">Portfolios</a></li>
