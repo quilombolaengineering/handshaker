@@ -95,6 +95,9 @@
 		font-size: 12px;
 		font-weight: 900;
 	}
+	nav ul a:hover {
+		@include animation(rubber-band ease-in-out 1s);
+	}
 }
 @media only screen and (max-width: 766px) {
   	.section-navigation {
