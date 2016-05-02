@@ -1,6 +1,6 @@
 <section id="navigation" class="section-navigation">
     <div class="row">
-        <a class="logo" href="#"><span class="glyphicon glyphicon-home" aria-hidden="true"></span></a>
+        <a class="logo" href="#">HANDSHAKER</a>
 
         <div class="mobile-toggle">
             <span></span>
