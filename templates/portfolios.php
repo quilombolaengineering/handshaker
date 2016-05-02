@@ -1,4 +1,4 @@
-<section id="section-portfolios">
+<section id="portfolios" class="section-portfolios">
 	<div class="container-fluid portfolios">
 		<div class="row">
 <h1>Art Portfolios</h1>

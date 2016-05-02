@@ -1,4 +1,4 @@
-<section id="section-introduction">
+<section id="about" class="section-introduction">
 	<!-- Introduce Organization -->
 	<div class="container-fluid organization-summary">
 		<div class="v-center">
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container-fluid organization-story">
+	<div id="introduction" class="container-fluid organization-story">
 		<div class="row">
 			<div class="col-xs-12">
 <h1>Introduction</h1>
