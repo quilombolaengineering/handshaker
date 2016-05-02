@@ -27,23 +27,70 @@
 		position: relative;
 		padding: 0 2%;
 	}
-.logo {
-	float: left;
-	display: block;
-	margin-top: 0;
-	padding-top: 10px;
-	margin-bottom: 22px;
-	width: 15px;
-	font-family: Lato;
-	font-size: 12px;
-	font-weight: 900;
-  	line-height: 1;
-}
-@media only screen and (max-width: 766px) {
-  	.logo {
-    		float: none;
-  	}
-}
+
+	.logo {
+		float: left;
+		display: block;
+		margin-top: 0;
+		padding-top: 10px;
+		margin-bottom: 22px;
+		width: 15px;
+		font-family: Lato;
+		font-size: 12px;
+		font-weight: 900;
+	  	line-height: 1;
+	}
+	@media only screen and (max-width: 766px) {
+	  	.logo {
+	    		float: none;
+	  	}
+	}
+	
+	nav {
+	  	float: right;
+	  	width: 60%;
+		text-decoration: none;
+	}
+	@media only screen and (max-width: 766px) {
+	  nav {
+	    width: 100%;
+	  }
+	}
+	nav ul {
+	  list-style: none;
+	  overflow: hidden;
+	  text-align: right;
+	  float: right;
+	}
+	@media only screen and (max-width: 766px) {
+	  nav ul {
+	    padding-top: 10px;
+	    margin-bottom: 22px;
+	    float: left;
+	    text-align: center;
+	    width: 100%;
+	  }
+	}
+	nav ul li {
+	  display: inline-block;
+	  margin-left: 35px;
+	  line-height: 1.5;
+	}
+	@media only screen and (max-width: 766px) {
+	  nav ul li {
+	    width: 100%;
+	    padding: 7px 0;
+	    margin: 0;
+	  }
+	}
+	nav ul a {
+		color: $color-light;
+		text-transform: uppercase;
+		font-size: 12px;
+		font-family: Lato;
+		font-size: 12px;
+		font-weight: 900;
+	}
 
 }
 @media only screen and (max-width: 766px) {
@@ -61,57 +108,10 @@
 }
 
 .sticky {
-  background-color: rgba(255, 255, 255, 0.93);
   background-color: $color-orange-alpha;
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid $color-light;
-}
-
-nav {
-  	float: right;
-  	width: 60%;
-	text-decoration: none;
-}
-@media only screen and (max-width: 766px) {
-  nav {
-    width: 100%;
-  }
-}
-nav ul {
-  list-style: none;
-  overflow: hidden;
-  text-align: right;
-  float: right;
-}
-@media only screen and (max-width: 766px) {
-  nav ul {
-    padding-top: 10px;
-    margin-bottom: 22px;
-    float: left;
-    text-align: center;
-    width: 100%;
-  }
-}
-nav ul li {
-  display: inline-block;
-  margin-left: 35px;
-  line-height: 1.5;
-}
-@media only screen and (max-width: 766px) {
-  nav ul li {
-    width: 100%;
-    padding: 7px 0;
-    margin: 0;
-  }
-}
-nav ul a {
-	color: $color-light;
-	text-transform: uppercase;
-	font-size: 12px;
-	font-family: Lato;
-	font-size: 12px;
-	font-weight: 900;
 }
 
 .mobile-toggle {
