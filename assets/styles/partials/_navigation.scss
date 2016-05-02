@@ -39,11 +39,16 @@
 		margin-top: 0;
 		padding-top: 10px;
 		margin-bottom: 22px;
-		width: 15px;
 		font-family: Lato;
 		font-size: 12px;
 		font-weight: 900;
 	  	line-height: 1;
+	display: none;
+	font-size: 20px;
+	position: absolute;
+	left: 22px;
+	top: 0;
+	width: 30px;
 	}
 	@media only screen and (max-width: 766px) {
 	  	.logo {
