@@ -3,29 +3,29 @@
 -----------------------------------------------  */
 
 .section-navigation {
-  position: fixed;
-  top: 0px;
-  max-height: 70px;
-  z-index: 999;
-  width: 100%;
-  padding-top: 17px;
-  background: none;
-  overflow: hidden;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
-  opacity: 0;
-  top: -100px;
-  padding-bottom: 6px;
-  font-family: "Montserrat", sans-serif;
-  box-shadow: 0 2px 3px rgba(0,0,0,.4);
-
-.row {
-  width: 100%;
-  max-width: 940px;
-  margin: 0 auto;
-  position: relative;
-  padding: 0 2%;
-}
+	position: fixed;
+	top: 0px;
+	max-height: 70px;
+	z-index: 999;
+	width: 100%;
+	padding-top: 17px;
+	background: none;
+	overflow: hidden;
+	-webkit-transition: all 0.3s;
+	transition: all 0.3s;
+	opacity: 0;
+	top: -100px;
+	padding-bottom: 6px;
+	font-family: "Montserrat", sans-serif;
+	box-shadow: 0 2px 3px rgba(0,0,0,.4);
+	
+	.row {
+		width: 100%;
+		max-width: 940px;
+		margin: 0 auto;
+		position: relative;
+		padding: 0 2%;
+	}
 }
 @media only screen and (max-width: 766px) {
   .section-navigation {
@@ -50,15 +50,12 @@
 }
 
 .logo {
-  width: 50px;
-  font-size: 25px;
-  color: $color-light;
-  text-transform: uppercase;
   float: left;
   display: block;
   margin-top: 0;
-  line-height: 1;
   margin-bottom: 10px;
+  width: 50px;
+  background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/faded-handshaker-logo-1000x1000px.png");
 }
 @media only screen and (max-width: 766px) {
   .logo {

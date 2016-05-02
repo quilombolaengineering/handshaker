@@ -9,10 +9,10 @@
         </div>
         <nav>
             <ul>
-                <li><a href=".sec01">Section 01</a></li>
-                <li><a href=".sec02">Section 02</a></li>
-                <li><a href=".sec03">Section 03</a></li>
-                <li><a href=".sec04">Section 04</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#introduction">Introduction</a></li>
+                <li><a href="#artists">Artists</a></li>
+                <li><a href="#portfolios">Portfolios</a></li>
             </ul>
         </nav>
     </div> <!-- / row -->
