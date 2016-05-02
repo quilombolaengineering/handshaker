@@ -27,6 +27,24 @@
 		position: relative;
 		padding: 0 2%;
 	}
+.logo {
+	float: left;
+	display: block;
+	margin-top: 0;
+	padding-top: 10px;
+	margin-bottom: 22px;
+	width: 15px;
+	font-family: Lato;
+	font-size: 12px;
+	font-weight: 900;
+  	line-height: 1;
+}
+@media only screen and (max-width: 766px) {
+  	.logo {
+    		float: none;
+  	}
+}
+
 }
 @media only screen and (max-width: 766px) {
   .section-navigation {
@@ -48,24 +66,6 @@
   opacity: 1;
   top: 0px;
   border-bottom: 1px solid $color-light;
-}
-
-.logo {
-	float: left;
-	display: block;
-	margin-top: 0;
-	padding-top: 10px;
-	margin-bottom: 22px;
-	width: 15px;
-	font-family: Lato;
-	font-size: 12px;
-	font-weight: 900;
-  	line-height: 1;
-}
-@media only screen and (max-width: 766px) {
-  	.logo {
-    		float: none;
-  	}
 }
 
 nav {
