@@ -1,6 +1,6 @@
 <section id="navigation" class="section-navigation">
     <div class="row">
-        <a class="logo" href="#">HANDSHAKER</a>
+        <a class="logo" href="#" style="text-decoration: none;">HANDSHAKER</a>
 
         <div class="mobile-toggle">
             <span></span>
