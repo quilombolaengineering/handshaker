@@ -51,7 +51,17 @@
 <script>
 	<!-- make reveal calls last -->
       	// use rotation in reveal configuration
-      	sr.reveal('.logoReveal', { container: '.logoContainer', origin: 'left', rotate: {x: 65} });
+	var revelation = {
+  		container: '.logoContainer',
+		origin: 'left',
+		delay    : 1900,
+  		distance : '90px',
+  		easing   : 'ease-in-out',
+  		rotate   : { x: 65 },
+  		scale    : 1.1
+	};
+
+      	sr.reveal('.logoReveal', revelation);
 </script>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
