@@ -4,7 +4,11 @@
 		<div class="v-center">
 			<!-- Introduction Image -->
 			<div class="col-xs-4 col-md-3 col-md-offset-3">
-				<img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
+				<div class="logoContainer">
+					<div class="logoReveal"> 
+						<img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/cochin-q-circle-orangeicon-center-1000x1000px.png">
+					</div>
+				</div>
 			</div>
 			<!-- Introduction Text -->
 			<div class="col-xs-12 col-md-6 introduction-title"><h2>Handshaker</h2></div>

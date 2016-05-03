@@ -48,6 +48,12 @@
         function sploob(){ var audio = new Audio('https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/sploob.m4a'); audio.play(); }
 </script>
 
+<script>
+	<!-- make reveal calls last -->
+      	// use rotation in reveal configuration
+      	sr.reveal('.logoReveal', { container: '.logoContainer', rotate: {x: 65} });
+</script>
+
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script type="text/javascript">
 // Sticky Header

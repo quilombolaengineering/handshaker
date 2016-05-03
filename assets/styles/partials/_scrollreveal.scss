@@ -1,0 +1,5 @@
+/* Ensure elements load hidden before ScrollReveal runs */
+.sr .logoReveal { visibility: hidden; }
+
+/* add perspective to your container */
+.logoContainer { perspective: 80%; }
