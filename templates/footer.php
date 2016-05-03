@@ -57,8 +57,10 @@
   		distance : '100vw',
 		delay    : 5000,
   		easing   : 'ease-out',
+		resets   : 'true',
   		rotate   : { x: 65 },
-  		scale    : 1.1
+  		scale    : 1.1,
+		viewFactor  : 0.9,
 	};
 
       	sr.reveal('.logoReveal', revelation);
