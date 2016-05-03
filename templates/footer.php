@@ -55,12 +55,13 @@
   		container: '.logoContainer',
 		origin	 : 'left',
   		distance : '100vw',
-		delay    : 5000,
+		delay    : 3000,
   		easing   : 'ease-out',
 		resets   : 'true',
   		rotate   : { x: 65 },
   		scale    : 1.1,
 		viewFactor  : 0.9,
+		viewport: window.document.documentElement,
 	};
 
       	sr.reveal('.logoReveal', revelation);
