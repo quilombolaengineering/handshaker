@@ -6,19 +6,19 @@
 		</div>
 		<div class="row projects">
 			<div class="col-md-3 completed-projects"> 
-				<h1>Completed Projects</h1>
+				<h1>Completed <br> Projects</h1>
 				<p>What we have done.</p>
 			</div>
 			<div class="col-md-3 current-projects"> 
-				<h1>Current Projects</h1>
+				<h1>Current <br> Projects</h1>
 				<p>What we are doing.</p>
 			</div>
 			<div class="col-md-3 upcoming-projects"> 
-				<h1>Upcoming Projects</h1>
+				<h1>Upcoming <br> Projects</h1>
 				<p>What we will do.</p>
 			</div>
 			<div class="col-md-3 decorated-projects"> 
-				<h1>Decorated Projects</h1>
+				<h1>Decorated <br> Projects</h1>
 				<p>What we have won.</p>
 			</div>
 		</div>
