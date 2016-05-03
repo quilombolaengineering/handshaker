@@ -74,11 +74,4 @@
                 color: $color-orange;
 
 	}
-	.notice {
-		position: absolute;
-		top: 25%;
-		left: 25%;
-		z-index: 5;
-		@include animation(slide-down ease-out 9s infinite both);
-	}
 }
