@@ -55,8 +55,8 @@
   		container: '.logoContainer',
 		origin	 : 'left',
   		distance : '100vw',
-		delay    : 1900,
-  		easing   : 'ease-in-out',
+		delay    : 5000,
+  		easing   : 'ease-out',
   		rotate   : { x: 65 },
   		scale    : 1.1
 	};
