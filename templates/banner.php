@@ -11,5 +11,6 @@
 		</a>
 		<h1><?php bloginfo('name'); ?></h1> 
 		<p><?php bloginfo('description'); ?></p>	
+		<!-- let's leave out the yellow button div <div class="yellow-button">Usage</div> -->
 	</div>
 </section>
