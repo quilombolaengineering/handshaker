@@ -52,6 +52,8 @@
 	<!-- make reveal calls last -->
       	// use rotation in reveal configuration
 	var revelation = {
+		origin	  : 'left',
+		distance  : '50vw',
 		duration  : 3000,
 	};
 
