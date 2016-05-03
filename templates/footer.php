@@ -52,6 +52,7 @@
 	<!-- make reveal calls last -->
       	// use rotation in reveal configuration
 	var revelation = {
+		duration  : 3000,
 	};
 
       	sr.reveal('.logoReveal', revelation);
