@@ -54,7 +54,7 @@
 	var revelation = {
 		origin	  : 'left',
 		distance  : '50vw',
-		duration  : 3000,
+		duration  : 2000,
 		easing    : 'ease-out',
 	};
 
