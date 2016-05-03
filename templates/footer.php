@@ -55,6 +55,7 @@
 		origin	  : 'left',
 		distance  : '50vw',
 		duration  : 3000,
+		easing    : 'ease-out',
 	};
 
       	sr.reveal('.logoReveal', revelation);
