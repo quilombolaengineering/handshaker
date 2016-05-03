@@ -52,16 +52,6 @@
 	<!-- make reveal calls last -->
       	// use rotation in reveal configuration
 	var revelation = {
-  		container: '.logoContainer',
-		origin	 : 'left',
-  		distance : '100vw',
-		delay    : 3000,
-  		easing   : 'ease-out',
-		resets   : 'true',
-  		rotate   : { x: 65 },
-  		scale    : 1.1,
-		viewFactor  : 0.9,
-		viewport: window.document.documentElement,
 	};
 
       	sr.reveal('.logoReveal', revelation);
