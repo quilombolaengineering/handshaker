@@ -53,9 +53,9 @@
       	// use rotation in reveal configuration
 	var revelation = {
   		container: '.logoContainer',
-		origin: 'left',
+		origin	 : 'left',
+  		distance : '100vw',
 		delay    : 1900,
-  		distance : '90px',
   		easing   : 'ease-in-out',
   		rotate   : { x: 65 },
   		scale    : 1.1
