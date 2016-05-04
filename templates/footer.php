@@ -51,14 +51,13 @@
 <script>
 	<!-- make reveal calls last -->
       	// use rotation in reveal configuration
-	var revelation = {
-		origin	  : 'left',
-		distance  : '50vw',
-		duration  : 2000,
-		easing    : 'ease-out',
-	};
+	var logoReveal = { origin : 'left', distance : '25vw', duration : 2000, easing : 'ease-out' };
+	var titleReveal = { origin : 'top', duration : 1000, easing : 'ease-out' };
+	var aboutReveal = { origin : 'left', duration : 1500, easing : 'ease-out' };
 
-      	sr.reveal('.logoReveal', revelation);
+      	sr.reveal('.logoReveal', logoReveal);
+      	sr.reveal('.titleReveal', titleReveal);
+      	sr.reveal('.aboutReveal', aboutReveal);
 </script>
 
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
