@@ -12,6 +12,8 @@
 					<h1>Principal Artists</h1>
 					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				</div>
+			</div>
+			<div class="row">
                 		<div class="col-md-2 col-md-offset-1">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/dude-2000x2000px.png" /></a>
 					<h1>Dude</h1>
