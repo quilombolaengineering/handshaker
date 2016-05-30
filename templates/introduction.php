@@ -11,9 +11,9 @@
 				</div>
 			</div>
 			<!-- Introduction Text -->
-			<div class="col-xs-12 col-md-6 introduction-title"><div class="titleReveal"><h2>Handshaker</h2></div></div>
+			<div class="col-xs-12 col-md-6 introduction-title"><div class="titleReveal"><h2><?php bloginfo('name'); ?></h2></div></div>
 			<div class="col-xs-12 col-md-6 introduction-line"><div class="colored-line"></div></div>
-			<div class="col-xs-12 col-md-6 introduction-text"><div class="aboutReveal">Handshaker is a Wordpress Theme created by Quilombola Engineering. 
+			<div class="col-xs-12 col-md-6 introduction-text"><div class="aboutReveal"><?php bloginfo('name'); ?> is a Wordpress Theme created by Quilombola Engineering. 
 				In this section you should summarize what your organization is about. This summary shoul be no more
 				than four sentences. This section is a brief "about us" or a short summary of the purpose 
 				of the organization or this website in particular.</div></div>

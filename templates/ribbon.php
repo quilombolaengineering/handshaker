@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<h2>How can I use handshaker?</h2>
+					<h2>How can I use <?php bloginfo('name'); ?>?</h2>
 				</div>
 			</div>
 			<div class="col-md-3">
