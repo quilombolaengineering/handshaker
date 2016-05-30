@@ -10,7 +10,8 @@
 	color: $color-orange-alpha;
 	@include overlay($color-dark, 0.9);
 	.contributor-overlay {
-		position: absolute;
+		position: relative;
+		display: table-cell;
 		z-index: 4;
 		padding: 0 5%;
 		font-weight: 700;
