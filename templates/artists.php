@@ -24,7 +24,7 @@
                 		<div class="col-md-2">
 					<a href="#ribbon"><img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/zhangkaiqin-train-600x600px.png" /></a>
 					<h1>Kai Qin</h1>
-					<p>Financing & Art Curation</p>
+					<p>Value Financing & Art Curation</p>
 					<p class="contributor-intro">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					<div class="yellow-button">More Info</div>
 				</div>
