@@ -28,6 +28,9 @@
 			color: $color-light;
 			@include animation(fade-in ease-in-out 2s 0.5s both);
 		}
+		div {
+			margin: 1em auto;
+		}
 	}
 	p {
 		font-size: 90%;
