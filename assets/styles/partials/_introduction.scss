@@ -44,7 +44,7 @@ h1 {
 /* COLORED BORDERS AND LINES */
 .colored-line {
 	@include animation(stretch-line ease-out 1s 0.5s forwards);
-	background: $color-orange;
+	background: $color-green;
 	margin: 0;
 	padding: 0;
 	height: 2px;
@@ -54,7 +54,7 @@ h1 {
 
 .organization-story {
 	padding: 4em 2em;
-	border-top: 2px solid $color-orange;
+	border-top: 2px solid $color-green;
 	background-color: $color-grey;
 	color: $color-light;
 }

@@ -1,13 +1,13 @@
 .section-artists {
 	position: relative;
 	display: table;
-	border-top: 2px solid $color-orange;
-	border-bottom: 2px solid $color-orange;
+	border-top: 2px solid $color-green;
+	border-bottom: 2px solid $color-green;
 	width: 100%;
 	margin: 0 auto;
 	padding: 2em 0;
 	text-align: center;
-	color: $color-orange-alpha;
+	color: $color-green-alpha;
 	@include overlay($color-dark, 0.9);
 	.contributor-overlay {
 		position: relative;
@@ -44,7 +44,7 @@
 	}
 	img:hover {
                 @include animation(tada ease-in 3s);
-		border: 1px solid $color-orange;
+		border: 1px solid $color-green;
 	}
  	ul.horizontal-slider {
 		list-style-type: none;
@@ -100,7 +100,7 @@
 	}
 	.yellow-button:hover {
                 background-color: white;
-                border: 1px solid $color-orange;
-                color: $color-orange;
+                border: 1px solid $color-green;
+                color: $color-green;
 	}
 }

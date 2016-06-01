@@ -6,7 +6,7 @@
 	text-align: center;
 	height: 100vh;
 	color: $color-orange-alpha;
-	@include overlay($color-dark, 0.8);
+	@include overlay($color-red, 0.2);
 	.v-center {
 		display: table-cell;
 		vertical-align: middle;
@@ -70,8 +70,8 @@
 	}
 	.yellow-button:hover {
                 background-color: white;
-                border: 1px solid $color-orange;
-                color: $color-orange;
+                border: 1px solid $color-green;
+                color: $color-green;
 
 	}
 }
