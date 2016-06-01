@@ -6,7 +6,7 @@
 	text-align: center;
 	height: 100vh;
 	color: $color-orange-alpha;
-	@include overlay($color-red, 0.2);
+	@include overlay($color-dark, 0.8);
 	.v-center {
 		display: table-cell;
 		vertical-align: middle;
