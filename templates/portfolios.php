@@ -1,24 +1,24 @@
 <section id="portfolios" class="section-portfolios">
 	<div class="container-fluid portfolios">
 		<div class="row">
-<h1>Art Portfolios</h1>
+<h1>握手302 项目情况</h1>
 <p>This is a collection of art portfolios. Our art collection is divided into current, completed, planned, and award-wining projects.</p>
 		</div>
 		<div class="row projects">
 			<div class="col-md-3 completed-projects"> 
-				<h1>Completed <br> Projects</h1>
+				<h1>往期项目</h1>
 				<p>What we have done.</p>
 			</div>
 			<div class="col-md-3 current-projects"> 
-				<h1>Current <br> Projects</h1>
+				<h1>当前进行中</h1>
 				<p>What we are doing.</p>
 			</div>
 			<div class="col-md-3 upcoming-projects"> 
-				<h1>Upcoming <br> Projects</h1>
+				<h1>纪录</h1>
 				<p>What we will do.</p>
 			</div>
 			<div class="col-md-3 decorated-projects"> 
-				<h1>Decorated <br> Projects</h1>
+				<h1>成绩</h1>
 				<p>What we have won.</p>
 			</div>
 		</div>
