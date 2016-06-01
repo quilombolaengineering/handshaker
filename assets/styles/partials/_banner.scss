@@ -35,9 +35,9 @@
 			@include bg-abs;
 			opacity: 0;
 			@include animation(fade-out 9s infinite both);
-			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/banana-shot-800x1200px.png);
 			@media (min-width: $mq-med) {
-				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/red-clown-2000x1350px.png);
 			}
 		}
 	 	li:nth-child(2) {
