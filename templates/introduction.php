@@ -3,7 +3,7 @@
 	<div class="container-fluid organization-summary">
 		<div class="v-center">
 			<!-- Introduction Image -->
-			<div class="col-xs-12 col-md-6 introduction-title"><div class="logoReveal"><img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-logo.jpg"></div></div>
+			<div class="col-xs-12 col-md-6 introduction-image"><div class="logoReveal"><img class="introduction-image" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-logo.jpg"></div></div>
 			<!-- Introduction Text -->
 			<div class="col-xs-12 col-md-6 introduction-title"><div class="titleReveal"><h2><?php bloginfo('name'); ?></h2></div></div>
 			<div class="col-xs-12 col-md-6 introduction-line"><div class="colored-line"></div></div>
