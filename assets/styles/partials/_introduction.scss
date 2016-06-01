@@ -7,7 +7,7 @@
 	margin: 10em 0;
 
 	img:hover {
-		@include animation(rubber-band ease-in-out 3s);
+		@include animation(rubber-band ease-in-out 0.3s);
 	}	
 }
 
@@ -22,7 +22,7 @@ h1 {
 	position: relative;
 	display: table-cell;
 	vertical-align: middle;
-	width: 250px;
+	width: 150px;
 	opacity: 1;
 }
 
