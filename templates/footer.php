@@ -28,7 +28,7 @@
 	        </div>
 	        <div class="col-md-3">
                 	<h2>Links</h2>
-	                <p class="about-text">Learn more about Handshaker and Quilombola Engineering:</p>
+	                <p class="about-text">Learn more about Handshake302:</p>
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
