@@ -24,8 +24,7 @@
 	        </div>
 	        <div class="col-md-3">
 	                <h2>About Us</h2>
-	                <p class="about-text">This theme was designed to showcase art portfolios for a team of artists living in Shenzhen, China. For best results, use only high resolution images.</p>
-	                <p class="about-text">Contact Quilombola Engineering you need any help to implement this or any other Wordpress theme.</p>
+	                <p class="about-text">握手302希望通过这个网站向大家简易，清晰地介绍握手302的情况，也能邀请感兴趣的朋友共同参与.</p>
 	        </div>
 	        <div class="col-md-3">
                 	<h2>Links</h2>
@@ -37,7 +36,7 @@
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
 	                <h2>Handshaker</h2>
-	                <p class="about-text">Handshaker is a Wordpress Theme created by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
+	                <p class="about-text">The Handshake302 websiteis maintained by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
         	</div>
 	</div>
 </section>
