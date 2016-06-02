@@ -10,17 +10,11 @@
 	                <h2>What We Do</h2>
 	                <p>Our Mission</p>
 	                <p>Get Involved</p>
-	                <p>Events</p>
-	                <p>Portfolio</p>
-	                <p>Blog</p>
 	        </div>
 	        <div class="col-md-3">
 	                <h2>Who We Are</h2>
 	                <p>Our Team</p>
 	                <p>Partners</p>
-	                <p>Press</p>
-	                <p>Contact</p>
-	                <p>FAQ</p>
 	        </div>
 	        <div class="col-md-3">
 	                <h2>About Us</h2>
@@ -36,7 +30,7 @@
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
 			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
 	                <h2>Handshaker</h2>
-	                <p class="about-text">The Handshake302 websiteis maintained by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
+	                <p class="about-text">Maintained by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
         	</div>
 	</div>
 </section>
