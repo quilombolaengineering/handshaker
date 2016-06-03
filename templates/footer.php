@@ -6,33 +6,37 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
-	        <div class="col-md-3">
-	                <h2>About Us</h2>
-	                <p class="about-text">握手302希望通过这个网站向大家简易，清晰地介绍握手302的情况，也能邀请感兴趣的朋友共同参与.</p>
-	        </div>
-	        <div class="col-md-3">
-                	<h2>Links</h2>
-	                <p class="about-text">Learn more about Handshake302:</p>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-phone"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
-	        </div>
-	        <div class="col-md-3">
-	                <h2>Who We Are</h2>
-	                <p><a href="#artists">Our Team</a></p>
-	                <p><a href="#porfolios">Partners</a></p>
-	        </div>
-	        <div class="col-md-3">
-	                <h2>META</h2>
-	                <p><a href="/wp-admin">Site Admin</a></p>
-	                <p><a href="logout">Log Out</a></p>
-        	</div>
-	        <div class="col-md-4 col-md-offset-4">
-	                <p class="about-text">Maintained by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
-        	</div>
+		<div class="row">
+		        <div class="col-md-3">
+		                <h2>About Us</h2>
+		                <p class="about-text">握手302希望通过这个网站向大家简易，清晰地介绍握手302的情况，也能邀请感兴趣的朋友共同参与.</p>
+		        </div>
+		        <div class="col-md-3">
+	                	<h2>Links</h2>
+		                <p class="about-text">Learn more about Handshake302:</p>
+				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
+				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
+				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
+				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-phone"></span></div>
+				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
+				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
+		        </div>
+		        <div class="col-md-3">
+		                <h2>Who We Are</h2>
+		                <p><a href="#artists">Our Team</a></p>
+		                <p><a href="#porfolios">Partners</a></p>
+		        </div>
+		        <div class="col-md-3">
+		                <h2>META</h2>
+		                <p><a href="/wp-admin">Site Admin</a></p>
+		                <p><a href="logout">Log Out</a></p>
+	        	</div>
+		</div>
+		<div class="row">
+		        <div class="col-md-4 col-md-offset-4">
+		                <p class="about-text">Maintained by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
+	        	</div>
+		</div>
 	</div>
 </section>
 
