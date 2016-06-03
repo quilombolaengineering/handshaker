@@ -19,6 +19,9 @@
   font-size: 1.25em;
   line-height: 1.6em;
   z-index: 3;
+	@media (min-width: $mq-large) {
+		font-size: 1em;
+	}
 }
 
 .ribbon-text h2 {
@@ -27,6 +30,9 @@
   text-transform: uppercase;
   line-height: 1.3em;
   color: $color-light;
+	@media (min-width: $mq-large) {
+		font-size: 0.8em;
+	}
 }
 
 .ribbon-text a {
