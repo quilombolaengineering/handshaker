@@ -2,7 +2,7 @@
 	<div class="container-fluid portfolios">
 		<div class="row">
 <h1>握手302 项目情况</h1>
-<p>This is a collection of art portfolios. Our art collection is divided into current, completed, planned, and award-wining projects.</p>
+<p>该部分为个人作品图片集，可以帮助您更好地了解我的创作、思考方向和风格。</p>
 		</div>
 		<div class="row projects">
 			<div class="col-md-3 completed-projects"> 
