@@ -24,7 +24,6 @@
 
 	.projects {
 		line-height: 2em;
-		height: 100vh;
 
 		h1 {
 			padding: 1em 0;
@@ -59,6 +58,7 @@
 		}
 
 		.completed-projects {
+			height: 50vh;
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
