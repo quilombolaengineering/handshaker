@@ -22,8 +22,5 @@
 				<p>What we have won.</p>
 			</div>
 		</div>
-		<div class="row">
-<p> The <b>Decorated Projects</b> section above is a collection of art that has won awards. If you would like to collaborate with us as an <i>artist-in-residence</i>, please review <b>Upcoming Projects</b>. It is essentially a <i>call for entry / call for submission</i>. The curatorial plans submitted by artists like yourself are presented there. Art projects that we are presently working on are cataloged in <b>Current Projects</b>. Finally, all of our completed artwork has been categorized under <b>Completed Projects</b>.</p> 
-		</div>
 	</div>
 </section>
