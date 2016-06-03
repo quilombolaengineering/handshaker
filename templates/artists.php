@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="title">
 					<h1>Principal Artists</h1>
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					<p>握手302的五个发起人：老马和凯琴在白石洲租下了302；吴丹给302设计了logo并从此被拉上船；雷胜像魔法师一样在幕后漂亮地完成所有需要动手的工作；刘赫的怪点子总是给活动的策划带来新的形式和思考。</p>
 				</div>
 			</div>
 			<div class="row">
