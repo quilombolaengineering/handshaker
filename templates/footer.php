@@ -24,12 +24,12 @@
 		        <div class="col-md-3">
 		                <h2>Who We Are</h2>
 		                <p><a href="#artists">Our Team</a></p>
-		                <p><a href="#porfolios">Partners</a></p>
+		                <p><a href="#porfolios">Portfolios</a></p>
 		        </div>
 		        <div class="col-md-3">
 		                <h2>META</h2>
 		                <p><a href="/wp-admin">Site Admin</a></p>
-		                <p><a href="logout">Log Out</a></p>
+		                <p><a href="/logout">Log Out</a></p>
 	        	</div>
 		</div>
 		<div class="row">
