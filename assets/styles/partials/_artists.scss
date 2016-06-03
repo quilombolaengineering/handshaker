@@ -23,6 +23,7 @@
 			@include animation(fade-in ease-in-out 2s 0.5s both);
 		}
 		h3 {
+			margin: 0.5em;
 			font-size: calc(0.75em + 50%);
 			font-weight: 900;
 			color: $color-light;
