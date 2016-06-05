@@ -8,8 +8,8 @@
 	<div class="v-center">
 		<div class="row">
 		        <div class="col-md-3">
-		                <h2>About Us</h2>
-		                <p class="about-text">握手302希望通过这个网站向大家简易，清晰地介绍握手302的情况，也能邀请感兴趣的朋友共同参与.</p>
+		                <h2>Search</h2>
+		                <p class="about-text"><?php get_search_form(); ?></p>
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>Links</h2>
