@@ -9,9 +9,9 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#about" style="text-decoration: none;"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span> 关于艺术家</a></li>
-                <li><a href="#artists" style="text-decoration: none;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span> 艺术家</a></li>
-                <li><a href="#portfolios" style="text-decoration: none;"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span> 作品集</a></li>
+                <li><a href="#about" style="text-decoration: none;"><span class="glyphicon glyphicon-bullhorn" aria-hidden="true"></span>介绍 About</a></li>
+                <li><a href="#artists" style="text-decoration: none;"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>项目 Projects</a></li>
+                <li><a href="#portfolios" style="text-decoration: none;"><span class="glyphicon glyphicon-picture" aria-hidden="true"></span>联络 Contact</a></li>
             </ul>
         </nav>
     </div> <!-- end row -->

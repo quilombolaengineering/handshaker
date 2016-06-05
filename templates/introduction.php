@@ -11,7 +11,6 @@
 <p>"Handshake 302" is located at 302, Building 49, Shangbaishi Block 2 in Baishizhou. "Handshake" buldings stand so closely together that it is possible to shake hands through the windows of adjacent buildings. In fact, “Handshake 302” is a repurposed, 12 m2 efficiency apartment on the third floor of a stereotypic “handshake building”. It has a kitchen and a bathroom. There are 10 rooms on this floor.</p>
 <p>Handshake 302 is an independent art space. A core group of five people curates the space, but participation in any project is open to anyone through public announcements. Project participation ranges from using the space as an exhibition space to living quarters. Since its opening in October 2013, Handshake 302 has curated six exhibitions and more than 50 public events.</p>
 <p>We believe that art belongs to everyone who contributes to our city.</p>
-			<div class="yellow-button">Read More</div>
 			</div>
 		</div>
 	</div>
