@@ -8,7 +8,7 @@
 	<div class="v-center">
 		<div class="row">
 		        <div class="col-md-3">
-		                <h2>Search</h2>
+		                <h2>搜索Search</h2>
 		                <p class="about-text"><?php get_search_form(); ?></p>
 		        </div>
 		        <div class="col-md-3">
