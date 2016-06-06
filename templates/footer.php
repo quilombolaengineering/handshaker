@@ -13,18 +13,18 @@
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
-				<div onmousedown="sploob()" class="col-xs-4"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-				<div onmousedown="sploob()" class="col-xs-4"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+				<div onmousedown="sploob()" class="col-xs-2"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+				<div onmousedown="sploob()" class="col-xs-2"><i class="fa fa-weixin" aria-hidden="true"></i></div>
 		        </div>
 		        <div class="col-md-3">
-		                <h2>Who We Are</h2>
-		                <p><a href="#artists">Our Team</a></p>
-		                <p><a href="#porfolios">Portfolios</a></p>
+		                <h2>链接Links</h2>
+		                <p><a href="#artists">朋友Friends</a></p>
+		                <p><a href="#porfolios">邻居Neighbors</a></p>
 		        </div>
 		        <div class="col-md-3">
-		                <h2>META</h2>
-		                <p><a href="/wp-admin">Site Admin</a></p>
-		                <p><a href="/logout">Log Out</a></p>
+		                <h2>联络Contact</h2>
+		                <p><a href="/wp-admin">Email</a></p>
+		                <p><a href="/logout">地址Address</a></p>
 	        	</div>
 		</div>
 		<div class="row">
