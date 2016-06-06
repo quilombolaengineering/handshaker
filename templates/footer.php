@@ -13,14 +13,8 @@
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
-		                <p class="about-text"><i class="fa fa-facebook" aria-hidden="true"></i> </p>
-		                <p class="about-text"><i class="fa fa-weixin" aria-hidden="true"></i> </p>
-				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
-				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
-				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
-				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-phone"></span></div>
-				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
-				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
+				<div onmousedown="sploob()" class="col-xs-6"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+				<div onmousedown="sploob()" class="col-xs-6"><i class="fa fa-weixin" aria-hidden="true"></i></div>
 		        </div>
 		        <div class="col-md-3">
 		                <h2>Who We Are</h2>
