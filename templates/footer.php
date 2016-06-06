@@ -13,8 +13,8 @@
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
-				<div onmousedown="sploob()" class="col-xs-6"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-				<div onmousedown="sploob()" class="col-xs-6"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+				<div onmousedown="sploob()" class="col-xs-4"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+				<div onmousedown="sploob()" class="col-xs-4"><i class="fa fa-weixin" aria-hidden="true"></i></div>
 		        </div>
 		        <div class="col-md-3">
 		                <h2>Who We Are</h2>
