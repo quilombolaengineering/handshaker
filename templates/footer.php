@@ -12,8 +12,9 @@
 		                <p class="about-text"><?php get_search_form(); ?></p>
 		        </div>
 		        <div class="col-md-3">
-	                	<h2>Links</h2>
-		                <p class="about-text">Learn more about Handshake302:</p>
+	                	<h2>分享Share</h2>
+		                <p class="about-text"><i class="fa fa-facebook" aria-hidden="true"></i> </p>
+		                <p class="about-text"><i class="fa fa-weixin" aria-hidden="true"></i> </p>
 				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
 				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
 				<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
