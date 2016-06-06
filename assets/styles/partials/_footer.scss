@@ -27,6 +27,12 @@
 	.row {
 		margin: 2em;
 	}
+	.fa {
+		width: 38px;
+		height: 38px;
+		border: 2px solid;
+		border-radius: 50%;
+	}
 	p {
 		font-size: 90%;
 		@include animation(fade-in ease-in-out 2s 1s both);
