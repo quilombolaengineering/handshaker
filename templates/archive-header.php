@@ -1,4 +1,4 @@
-<section id="header" class="header">
+<header class="header">
         <!-- slider animation -->
         <ul class="header-keyframe-slider">
                 <li></li>
@@ -19,10 +19,4 @@
 			?>
 		</nav>
         </div>
-</section>
-
-<header class="header">
-  <div class="container">
-    <a class="brand" href="<?= esc_url(home_url('/')); ?>"><?php bloginfo('name'); ?></a>
-  </div>
 </header>
