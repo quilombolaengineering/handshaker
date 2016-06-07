@@ -23,7 +23,7 @@
 					<p>Past Projects</p>
 				</div>
 			</a>
-			<a href="/index.php/category/recogntion/">
+			<a href="/index.php/category/recognition/">
 				<div class="col-md-3 decorated-projects"> 
 					<h1>成绩</h1>
 					<p>Recognition</p>
