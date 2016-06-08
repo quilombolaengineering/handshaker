@@ -2,9 +2,10 @@
 	position: relative;
 	display: table;
 	width: 100%;
-	margin: 0 auto;
+	margin: 0 auto 2em auto;
+	padding: 2em 0;
 	text-align: center;
-	height: 25vh;
+	min-height: 25vh;
 	color: $color-orange-alpha;
 	@include overlay($color-dark, 0.8);
 	.options {
