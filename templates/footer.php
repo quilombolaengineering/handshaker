@@ -9,7 +9,7 @@
 		<div class="row">
 		        <div class="col-md-3">
 		                <h2>搜索Search</h2>
-		                <p class="about-text"><?php get_search_form(); ?></p>
+		                <p><?php get_search_form(); ?></p>
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
