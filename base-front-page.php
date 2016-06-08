@@ -28,11 +28,11 @@ use Roots\Sage\Wrapper;
     ?>
     <?php
       do_action('get_header');
-      get_template_part('templates/artists');
+      get_template_part('templates/portfolios');
     ?>
     <?php
       do_action('get_header');
-      get_template_part('templates/portfolios');
+      get_template_part('templates/artists');
     ?>
     <?php
       do_action('get_header');
