@@ -6,7 +6,11 @@
   padding: 2em;
   background-color: $color-green;
   color: $color-light;
-  z-index: 1;
+}
+
+.orange-ribbon:before {
+	content: '';
+	background-color: $color-light;
 }
 
 .ribbon-text {
