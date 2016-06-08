@@ -1,15 +1,15 @@
 /*!
- * Smooth Scrolling - jQuery for Smooth Scrolling (https://css-tricks.com/snippets/jquery/smooth-scrolling/)
- * For details, see https://css-tricks.com/snippets/jquery/smooth-scrolling/
+ * Waypoint Animation - Animate element using animate.css and waypoint.
+ * For details, see https://spin.atomicobject.com/2015/05/31/scroll-anmiation-css-waypoints/
  */
 
 $(document).ready(function(){
  
   // hide our element on page load
-  $('#hand').css('opacity', 0);
+  $('artist-image').css('opacity', 0);
  
-  $('#hand').waypoint(function() {
-      $('#hand').addClass('rotateIn');
+  $('artist-image').waypoint(function() {
+      $('artist-image').addClass('rotateIn');
   }, { offset: '45%' });
  
 });
