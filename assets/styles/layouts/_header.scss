@@ -1,76 +1,62 @@
-/*----------------------------------------------
---Header Styling
------------------------------------------------  */
-
 .header {
-        position: relative;
-        display: table;
-        width: 100%;
-        margin: 0 auto;
-        padding: 2em 0;
-        @include overlay($color-dark, 0.8);
-        .v-center {
-                display: table-cell;
-                vertical-align: middle;
-                position: relative;
-                z-index: 4;
-                padding: 0 5%;
-                h1 { @include animation(fade-in ease-in-out 2s 0.5s both); }
-                h2 { @include animation(fade-in ease-in-out 2.4s 0.1s both); }
-        }
-        h1 {
-                font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
-                font-weight: 700;
-                font-size: 65px;
-                text-transform: uppercase;
-                text-align: center;
-                color: $color-light;
-        }
-        h3 {
-                font-weight: 900;
-                text-transform: lowercase;
-                color: $color-orange;
-        }
-        h4 {
-                text-transform: uppercase;
-        }
-        p {
-                font-size: 120%;
-                @include animation(fade-in ease-in-out 2s 1s both);
-        }
-        img {
-                transition: all ease-out 4s;
-                width: 78px;
-                border: 1px solid white;
-                border-radius: 40px;
-        }
-        img:hover {
-                transform: rotate(-90deg);
-        }
-        ul.keyframe-fader {
-                li {
-                        @include bg-abs;
-                        opacity: 0;
-                        @include animation(fade-out 9s infinite both);
-                        background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-800x1200px.png);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/red-clown-2000x1350px.png);
-                        }
-                }
-                li:nth-child(2) {
-                        background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/banana-shot-800x1200px.png);
-                        @include animation-delay(6s);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-2000x1350px.png);
-                        }
-                }
-                li:nth-child(3) {
-                        background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wheel-of-fortune-800x1200px.png);
-                        @include animation-delay(3s);
-                        @media (min-width: $mq-med) {
-                                background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/truck-2000x1350px.png);
-                        }
-                }
-        }
+	position: relative;
+	display: table;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+	height: 100vh;
+	color: $color-orange-alpha;
+	@include overlay($color-dark, 0.8);
+	.options {
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: 1;
+	}
+	.v-center {
+		display: table-cell;
+		vertical-align: middle;
+		position: relative;
+		z-index: 4;
+		padding: 0 5%;
+		h1 {
+			@include animation(fade-in ease-in-out 2s 0.5s both);
+		}
+	}
+	p {
+		font-size: 120%;
+		@include animation(fade-in ease-in-out 2s 1s both);
+	}
+	img {
+		transition: all ease-out 4s;
+		width: 78px;
+		border: 1px solid white;
+		border-radius: 40px;
+	}
+	img:hover {
+		transform: rotate(-90deg);
+	}
+ 	ul.header-keyframe-slider {
+		li {
+			opacity: 0;
+			@include animation(fade-out 9s infinite both);
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-800x1200px.png);
+			@media (min-width: $mq-med) {
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/red-clown-2000x1350px.png);
+			}
+		}
+	 	li:nth-child(2) {
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/banana-shot-800x1200px.png);
+			@include animation-delay(6s);
+			@media (min-width: $mq-med) {
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-2000x1350px.png);
+			}
+		}
+		li:nth-child(3) {
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wheel-of-fortune-800x1200px.png);
+			@include animation-delay(3s);
+			@media (min-width: $mq-med) {
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/truck-2000x1350px.png);
+			}
+		}
+	}
 }
-
