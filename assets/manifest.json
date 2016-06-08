@@ -2,7 +2,7 @@
   "dependencies": {
     "main.js": {
       "files": [
-        "scripts/**/*",
+        "scripts/smooth-scrolling.js",
         "scripts/main.js"
       ],
       "main": true
