@@ -9,19 +9,17 @@
 	background-color: $color-light;
 	color: $color-dark;
 	text-align: center;
-
 	h1 {
 		color: $color-dark;
 	}
-
-	p {
-		margin: 2em;
-	}
-
 	div {
 		line-height: 2em;
 	}
-
+        p {
+                font-size: 90%;
+                color: $color-orange;
+                @include animation(fade-in ease-in-out 2s 1s both);
+        }
 	.projects {
 		line-height: 2em;
 
