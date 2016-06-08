@@ -13,8 +13,10 @@
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
-				<div onmousedown="sploob()" class="col-xs-2"><i class="fa fa-facebook" aria-hidden="true"></i></div>
-				<div onmousedown="sploob()" class="col-xs-2"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+				<div class="row">
+					<div onmousedown="sploob()" class="col-xs-6"><i class="fa fa-facebook" aria-hidden="true"></i></div>
+					<div onmousedown="sploob()" class="col-xs-6"><i class="fa fa-weixin" aria-hidden="true"></i></div>
+				</div>
 		        </div>
 		        <div class="col-md-3">
 		                <h2>链接Links</h2>

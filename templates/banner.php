@@ -6,7 +6,7 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
-		<a onmousedown="tick()" onmouseover="pop()" href="#introduction">
+		<a onmousedown="tick()" onmouseover="pop()" href="/index.php/about">
 			<img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-zumba-icon-600x600px.png" />
 		</a>
 		<h1><?php bloginfo('name'); ?></h1> 
