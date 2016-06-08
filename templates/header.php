@@ -7,7 +7,7 @@
                         </ul>
                         <div class="v-center">
                                 <a onmousedown="tick()" onmouseover="pop()" href="<?= esc_url(home_url('/')); ?>">
-                                        <img class="scroll-down" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/capoeirastudio-whitealpha-icon-600x600px.png" />
+                                        <img class="header-icon" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-zumba-icon-600x600px.png" />
                                 </a>
                                 <h1><?php bloginfo('name'); ?></h1>
                                 <h4 class="entry-title"><?php the_title(); ?></h4>
