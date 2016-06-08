@@ -4,7 +4,7 @@
 	width: 100%;
 	margin: 0 auto;
 	text-align: center;
-	height: 100vh;
+	height: 25vh;
 	color: $color-orange-alpha;
 	@include overlay($color-dark, 0.8);
 	.options {
@@ -37,6 +37,7 @@
 	}
  	ul.post-header-keyframe-slider {
 		li {
+			@include bg-abs;
 			opacity: 0;
 			@include animation(fade-out 9s infinite both);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-800x1200px.png);
