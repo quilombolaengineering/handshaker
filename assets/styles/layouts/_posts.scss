@@ -35,7 +35,7 @@
 	img:hover {
 		transform: rotate(-90deg);
 	}
- 	ul.header-keyframe-slider {
+ 	ul.post-header-keyframe-slider {
 		li {
 			opacity: 0;
 			@include animation(fade-out 9s infinite both);
