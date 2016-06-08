@@ -1,6 +1,6 @@
 <section id="ribbon" class="section-ribbon orange-ribbon">
 	<!-- Usage Guide -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-text">
