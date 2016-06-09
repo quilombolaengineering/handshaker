@@ -46,6 +46,7 @@
 	}
  	ul.header-keyframe-slider {
 		li {
+			@include bg-abs;
 			opacity: 0;
 			@include animation(fade-out 9s infinite both);
 			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-800x1200px.png);
