@@ -12,10 +12,11 @@
 	img {
 		margin: 1em auto;
 		width: 80%
+		transition: all 3s ease-in;
 	}
 	
 	img:hover {
-		@include animation(rubber-band ease-in-out 3s);
+		transform: scale(1.1);
 	}
 
 	h1 {
