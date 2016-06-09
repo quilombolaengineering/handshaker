@@ -22,6 +22,9 @@
 			@include animation(fade-in ease-in-out 2s 0.5s both);
 		}
 	}
+	h1 {
+		font-family: playfair display, georgia, times, serif;
+	}
         h2 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 150%;
