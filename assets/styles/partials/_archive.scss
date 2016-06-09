@@ -17,13 +17,37 @@
 			@include animation(fade-in ease-in-out 2s 0.5s both);
 		}
 	}
-	h1, p {
+	h1 {
                 text-transform: lowercase;
+        }
+	h2 {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 180%;
+                font-weight: 900;
+                text-transform: uppercase;
+                text-decoration: none;
+                color: $color-light;
+                @media (min-width: $mq-large) {
+                        font-size: 150%;
+                }
+        }
+        h3 {
+                padding-left: 86px;
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 150%;
+                font-weight: 100;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-orange;
         }
 	p {
 		font-size: 120%;
 		@include animation(fade-in ease-in-out 2s 1s both);
 	}
+        a {
+                text-decoration: none;
+                color: $color-orange;
+        }
 	img {
 		transition: all ease-out 4s;
 		width: 78px;
