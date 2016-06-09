@@ -20,6 +20,14 @@
 	@media (min-width: $mq-large) {
 		font-size: 1em;
 	}
+	.number {
+		position: absolute;
+		font-size: 56px; 
+		font-style: italic; 
+		color: $color-light;
+		left: -86px; 
+		z-index: 3;
+	}
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 180%;

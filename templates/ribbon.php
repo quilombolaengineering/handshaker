@@ -9,17 +9,17 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/ribbon-howto-1-80x80px.png">住村 Residency</a></p>
+					<p><a href="#"> <span class="number">01/</span> 住村 Residency</a></p>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/ribbon-howto-2-80x80px.png">招手 Opportunity</a></p>
+					<p><a href="#"> <span class="number">02/</span> 招手 Opportunity</a></p>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/ribbon-howto-3-80x80px.png">社区 Community</a></p>
+					<p><a href="#"> <span class="number">03/</span> 社区 Community</a></p>
 				</div>
 			</div>
 		</div>
