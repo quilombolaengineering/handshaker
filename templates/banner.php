@@ -10,6 +10,6 @@
 			<img id="hand" class="animated rotateIn options" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-zumba-icon-600x600px.png" />
 		</a>
 		<h1><?php bloginfo('name'); ?></h1> 
-		<p><?php bloginfo('description'); ?></p>	
+		<h2><?php bloginfo('description'); ?></h2>	
 	</div>
 </section>
