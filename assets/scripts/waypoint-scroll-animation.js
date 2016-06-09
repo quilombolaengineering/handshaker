@@ -10,6 +10,6 @@ $(document).ready(function(){
  
   $('#facebookIcon').waypoint(function() {
       $('#facebookIcon').addClass('rotateIn');
-  }, { offset: '5%' });
+  }, { offset: '45%' });
  
 });
