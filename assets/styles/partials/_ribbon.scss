@@ -6,6 +6,7 @@
 	padding: 2em;
 	background-color: $color-green;
 	color: $color-light;
+	border-top: 2px solid $color-yellow;
 }
 
 .ribbon-text {
@@ -19,6 +20,9 @@
 	z-index: 3;
 	@media (min-width: $mq-large) {
 		font-size: 1em;
+	}
+	.title {
+		color: $color-yellow;
 	}
 	.number {
 		position: absolute;
