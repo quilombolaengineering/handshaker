@@ -10,7 +10,7 @@
 			<div class="row">
 				<div class="title">
 					<h1>成员</h1>
-					<p>Core Members</p>
+					<h2>Core Members</h2>
 				</div>
 			</div>
 			<div class="row">

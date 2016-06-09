@@ -16,6 +16,14 @@
 	div {
 		line-height: 2em;
 	}
+        h2 {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 150%;
+                font-weight: 100;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-orange;
+        }
         p {
                 font-size: 90%;
                 color: $color-orange;

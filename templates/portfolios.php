@@ -2,7 +2,7 @@
 	<div class="container-fluid portfolios">
 		<div class="row">
 <h1>项目</h1>
-<p>Projects</p>
+<h2>Projects</h2>
 		</div>
 		<div class="row projects">
 			<a href="/index.php/category/news/">
