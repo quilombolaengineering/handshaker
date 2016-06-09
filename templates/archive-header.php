@@ -10,7 +10,7 @@
                         <img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-zumba-icon-600x600px.png" />
                 </a>
                 <h1><?php bloginfo('name'); ?></h1>
-		<p><?php single_cat_title('Currently browsing the '); ?> category.</p>
+		<h2><?php single_cat_title(''); ?></h2>
 		<?php
 			$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => $cat );
 			$myposts = get_posts( $args );
