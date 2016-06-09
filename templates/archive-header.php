@@ -1,6 +1,6 @@
-<header class="header">
+<header class="archive-header">
         <!-- slider animation -->
-        <ul class="header-keyframe-slider">
+        <ul class="archive-header-keyframe-slider">
                 <li></li>
                 <li></li>
                 <li></li>
