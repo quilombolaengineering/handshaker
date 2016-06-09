@@ -30,6 +30,14 @@
 			font-size: 0.8em;
 		}
 	}
+        p {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 150%;
+                font-weight: 100;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-orange;
+        }
 	a {
 		text-decoration: none;
 		color: $color-orange;
