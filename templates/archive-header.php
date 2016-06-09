@@ -16,7 +16,7 @@
 <?php
 
 $current_category = single_cat_title("", false);
-$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => '$cat' );
+$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => $cat );
 
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
