@@ -36,6 +36,9 @@
 	img:hover {
 		transform: rotate(-90deg);
 	}
+	form {
+		margin: 0 0 2em 0;
+	}
  	ul.post-header-keyframe-slider {
 		li {
 			@include bg-abs;
