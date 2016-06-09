@@ -12,30 +12,20 @@
                 <h1><?php bloginfo('name'); ?></h1>
 		<p><?php single_cat_title('Currently browsing the '); ?> category.</p>
 <?php
-$postlist = get_posts( 'orderby=menu_order&sort_order=asc' );
-$posts = array();
-foreach ( $postlist as $post ) {
-   $posts[] += $post->ID;
-}
 
-$current = array_search( get_the_ID(), $posts );
-$prevID = $posts[$current-1];
-$nextID = $posts[$current+1];
-?>
+$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => 1 );
 
-<div class="navigation">
-<?php if ( !empty( $prevID ) ): ?>
-<div class="alignleft">
-<a href="<?php echo get_permalink( $prevID ); ?>"
-  title="<?php echo get_the_title( $prevID ); ?>">Previous</a>
-</div>
-<?php endif;
-if ( !empty( $nextID ) ): ?>
-<div class="alignright">
-<a href="<?php echo get_permalink( $nextID ); ?>" 
- title="<?php echo get_the_title( $nextID ); ?>">Next</a>
-</div>
-<?php endif; ?>
-</div><!-- .navigation -->
+$myposts = get_posts( $args );
+foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
+		<h3 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
+<?php endforeach; 
+wp_reset_postdata();?>
+		<nav class="nav-primary">
+			<?php
+				if (has_nav_menu('primary_navigation')) :
+				wp_nav_menu(['theme_location' => 'primary_navigation', 'menu_class' => 'nav']);
+				endif;
+			?>
+		</nav>
         </div>
 </header>
