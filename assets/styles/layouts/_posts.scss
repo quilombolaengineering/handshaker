@@ -27,15 +27,15 @@
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 150%;
                 font-weight: 100;
-                text-transform: uppercase;
+                text-transform: lowercase;
                 text-decoration: none;
                 color: $color-orange;
         }
-        h2 {
+        h3 {
                 font-family: 'Yanone Kaffeesatz';
                 font-size: 120%;
                 font-weight: 900;
-                text-transform: lowercase;
+                text-transform: uppercase;
                 text-decoration: none;
                 color: $color-light;
         }
