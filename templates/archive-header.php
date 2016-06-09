@@ -11,10 +11,12 @@
                 </a>
                 <h1><?php bloginfo('name'); ?></h1>
 		<p><?php single_cat_title('Currently browsing the '); ?> category.</p>
+		<p><?php echo "Current Category ID is: " . $cat ;?></p>
+
 <?php
 
 $current_category = single_cat_title("", false);
-$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => '$current_category' );
+$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => '$cat' );
 
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
