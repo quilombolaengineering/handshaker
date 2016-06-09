@@ -22,13 +22,13 @@
 	}
 	h2 {
                 font-family: 'Yanone Kaffeesatz';
-                font-size: 150%;
+                font-size: 180%;
                 font-weight: 900;
                 text-transform: uppercase;
                 text-decoration: none;
                 color: $color-light;
 		@media (min-width: $mq-large) {
-			font-size: 0.8em;
+                	font-size: 150%;
 		}
 	}
         p {
