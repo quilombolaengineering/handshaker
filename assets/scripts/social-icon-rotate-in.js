@@ -5,5 +5,5 @@
 // use rotation in reveal configuration
 var socialIcon= { origin : 'right', distance : '25vw', duration : 2000, easing : 'ease-out' };
 
-sr.reveal('.fa-weixin', socialIcon);
-sr.reveal('.fa-facebook', socialIcon);
+sr.reveal('weixinIcon', socialIcon);
+sr.reveal('facebookIcon', socialIcon);
