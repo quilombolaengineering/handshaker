@@ -13,7 +13,7 @@
 		<p><?php single_cat_title('Currently browsing the '); ?> category.</p>
 <?php
 
-$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category' => 1 );
+$args = array( 'posts_per_page' => 5, 'offset'=> 0, 'category_name' => 'news' );
 
 $myposts = get_posts( $args );
 foreach ( $myposts as $post ) : setup_postdata( $post ); ?>
