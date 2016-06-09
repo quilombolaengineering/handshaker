@@ -6,10 +6,10 @@
 $(document).ready(function(){
  
   // hide our element on page load
-  $('.artist-image').css('opacity', 0);
+  $('#facebookIcon').css('opacity', 0);
  
-  $('.artist-image').waypoint(function() {
-      $('.artist-image').addClass('rotateIn');
-  }, { offset: '45%' });
+  $('#facebookIcon').waypoint(function() {
+      $('#facebookIcon').addClass('rotateIn');
+  }, { offset: '25%' });
  
 });
