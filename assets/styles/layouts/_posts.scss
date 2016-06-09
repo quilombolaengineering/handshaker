@@ -36,9 +36,6 @@
 	img:hover {
 		transform: rotate(-90deg);
 	}
-	form {
-		margin: 0 0 2em 0;
-	}
  	ul.post-header-keyframe-slider {
 		li {
 			@include bg-abs;
@@ -63,6 +60,11 @@
 				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/truck-2000x1350px.png);
 			}
 		}
+	}
+}
+.section-posts {
+	form {
+		margin: 0 0 2em 0;
 	}
 }
 .section-portfolios {
