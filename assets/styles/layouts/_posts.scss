@@ -30,7 +30,14 @@
                 text-transform: uppercase;
                 text-decoration: none;
                 color: $color-orange;
-                margin: 40px 0 10px;
+        }
+        h2 {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 120%;
+                font-weight: 900;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-white;
         }
 	p {
 		font-size: 120%;
