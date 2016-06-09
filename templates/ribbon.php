@@ -4,7 +4,7 @@
 		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<h2>握手Apply</h2>
+					<h2 class="title">握手Apply</h2>
 				</div>
 			</div>
 			<div class="col-md-3">
