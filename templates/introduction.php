@@ -1,6 +1,6 @@
 <section id="about" class="section-introduction">
 	<!-- Introduce Organization -->
-	<div id="introduction" class="container-fluid organization-story">
+	<div id="introduction" class="container organization-story">
 		<div class="row">
 			<div class="col-xs-12">
 <h1>握手302</h1>
