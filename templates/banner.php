@@ -6,8 +6,8 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
-		<a onmousedown="tick()" onmouseover="pop()" href="#portfolios">
-			<img id="hand" class="animated rotateIn options" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/handshake302-zumba-icon-600x600px.png" />
+		<a onmousedown="tick()" onmouseover="pop()" href="#introduction">
+			<img id="hand" class="animated rotateIn options" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/handshake302-icon.jpg" />
 		</a>
 		<h1><?php bloginfo('name'); ?></h1> 
 		<h2><?php bloginfo('description'); ?></h2>	
