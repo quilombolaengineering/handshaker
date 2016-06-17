@@ -13,8 +13,16 @@
 		        </div>
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
-				<div onmousedown="sploob()" class="col-md-2"><i id="facebookIcon" class="fa fa-facebook animated" aria-hidden="true"></i></div>
-				<div onmousedown="sploob()" class="col-md-2"><i id="weixinIcon" class="fa fa-weixin animated" aria-hidden="true"></i></div>
+				<div onmousedown="sploob()" class="col-md-2">
+					<a href="http://www.facebook.com/handshake302">
+						<i id="facebookIcon" class="fa fa-facebook animated" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div onmousedown="sploob()" class="col-md-2">
+					<a href="http://mp.weixin.qq.com/s?__biz=MjM5MjY1OTQwNw==&mid=402769166&idx=1&sn=4f9d6c439c0ecb75c6ecf30ce902f5b1#rd">
+						<i id="weixinIcon" class="fa fa-weixin animated" aria-hidden="true"></i>
+					</a>
+				</div>
 		        </div>
 		        <div class="col-md-3">
 		                <h2>链接Links</h2>
