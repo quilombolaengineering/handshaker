@@ -26,8 +26,8 @@
 		        </div>
 		        <div class="col-md-3">
 		                <h2>链接Links</h2>
-		                <p><a href="#artists">朋友Friends</a></p>
-		                <p><a href="#porfolios">邻居Neighbors</a></p>
+		                <p><a href="http://handshake302.com/index.php/friends/">朋友Friends</a></p>
+		                <p><a href="http://handshake302.com/index.php/neighbors/">邻居Neighbors</a></p>
 		        </div>
 		        <div class="col-md-3">
 		                <h2>联络Contact</h2>
