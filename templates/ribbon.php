@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<a href="#"> <span class="number">03/</span> <p>社区 Community</a></p>
+					<a href="http://handshake302.com/index.php/hi-neighbors/"> <span class="number">03/</span> <p>社区 Community</a></p>
 				</div>
 			</div>
 		</div>
