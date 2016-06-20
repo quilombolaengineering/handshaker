@@ -9,12 +9,12 @@
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<a href="#"> <span class="number">01/</span> <p>住村 Residency</a></p>
+					<a href="http://handshake302.com/index.php/call-for-artists-residency/"> <span class="number">01/</span> <p>住村 Residency</a></p>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<a href="#"> <span class="number">02/</span> <p>招手 Opportunity</a></p>
+					<a href="http://handshake302.com/index.php/presentation-of-hiding-in-the-city/"> <span class="number">02/</span> <p>招手 Opportunity</a></p>
 				</div>
 			</div>
 			<div class="col-md-3">
