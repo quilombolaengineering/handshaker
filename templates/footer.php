@@ -32,7 +32,7 @@
 		        <div class="col-md-3">
 		                <h2>联络Contact</h2>
 		                <p><a href="mailto:handshake302@126.com">电子邮件Email</a></p>
-		                <p><a href="/logout">地址Address</a></p>
+		                <p><a href="http://handshake302.com/index.php/address/">地址Address</a></p>
 	        	</div>
 		</div>
 		<div class="row">
