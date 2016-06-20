@@ -14,7 +14,7 @@
 		        <div class="col-md-3">
 	                	<h2>分享Share</h2>
 				<div onmousedown="sploob()" class="col-md-2">
-					<a href="http://www.facebook.com/handshake302">
+					<a href="https://www.facebook.com/Handshake-302-198875220512689/">
 						<i id="facebookIcon" class="fa fa-facebook animated" aria-hidden="true"></i>
 					</a>
 				</div>
