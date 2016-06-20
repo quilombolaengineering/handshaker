@@ -31,7 +31,7 @@
 		        </div>
 		        <div class="col-md-3">
 		                <h2>联络Contact</h2>
-		                <p><a href="/wp-admin">Email</a></p>
+		                <p><a href="mailto:handshake302@126.com">电子邮件Email</a></p>
 		                <p><a href="/logout">地址Address</a></p>
 	        	</div>
 		</div>
