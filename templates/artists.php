@@ -30,12 +30,12 @@
 					<h2>Lei Sheng</h2>
 				</div>
 				<div class="col-md-2">
-					<a href="#ribbon"><img class="artist-image" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/dudette-2000x2000px.png" /></a>
+					<a href="http://handshake302.com/index.php/founder-wudan/"><img class="artist-image" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/dudette-2000x2000px.png" /></a>
 					<h3>吴丹</h3>
 					<h2>Wu Dan</h2>
 				</div>
 				<div class="col-md-2">
-					<a href="#ribbon"><img class="artist-image" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/mary-2000x2000px.png" /></a>
+					<a href="http://handshake302.com/index.php/founder-marry-ann-odonnell/"><img class="artist-image" src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/mary-2000x2000px.png" /></a>
 					<h3>马立安</h3>
 					<h2>Marry Ann O'Donnell</h2>
 				</div>
