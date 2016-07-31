@@ -32,7 +32,7 @@ use Roots\Sage\Wrapper;
     ?>
     <?php
       do_action('get_header');
-      get_template_part('templates/sponsors');
+      get_template_part('templates/portfolios');
     ?>
     <?php
       do_action('get_header');
@@ -40,7 +40,7 @@ use Roots\Sage\Wrapper;
     ?>
     <?php
       do_action('get_header');
-      get_template_part('templates/portfolios');
+      get_template_part('templates/sponsors');
     ?>
     <?php
       do_action('get_footer');

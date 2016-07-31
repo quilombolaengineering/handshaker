@@ -1,16 +1,11 @@
 <section id="section-sponsors">
 	<div class="container-fluid sponsors">
-		<h1>Sponsors</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		<h1>谢谢</h1>
+		<h2>Thank You</h2>
+		<p>感谢多年来一直支持我们的朋友和机构们，你们是握手302进步的动力</p>
 		<div class="row">
-			<div class="col-xs-4 col-md-2 col-md-offset-3"> 
-				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/zumbcdo-square-icon-550x550px.png">
-			</div>
-			<div class="col-xs-4 col-md-2"> 	
-				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/zhang-simplified-aplha-logo.png">
-			</div>
-			<div class="col-xs-4 col-md-2"> 
-				<img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/capoeirastudio-icon-644x644px.png">
+			<div class="col-xs-4 col-md-2 col-xs-offset-4 col-md-offset-5"> 	
+				<img src="https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/ngan-lok-419x419px.png">
 			</div>
 		</div>
 	</div>

@@ -6,11 +6,10 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
-		<a onmousedown="tick()" onmouseover="pop()" href="#ribbon">
-			<img class="scroll-down" src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/faded-handshaker-logo-1000x1000px.png" />
+		<a onmousedown="tick()" onmouseover="pop()" href="#introduction">
+			<img id="hand" class="animated rotateIn options" src="https://s3-ap-northeast-1.amazonaws.com/www-capoeirastudio-com/handshake302-icon.jpg" />
 		</a>
 		<h1><?php bloginfo('name'); ?></h1> 
-		<p><?php bloginfo('description'); ?></p>	
-		<!-- let's leave out the yellow button div <div class="yellow-button">Usage</div> -->
+		<h2><?php bloginfo('description'); ?></h2>	
 	</div>
 </section>

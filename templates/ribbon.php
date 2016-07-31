@@ -1,25 +1,25 @@
 <section id="ribbon" class="section-ribbon orange-ribbon">
 	<!-- Usage Guide -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<h2>How can I use handshaker?</h2>
+					<h2 class="title">握手Apply</h2>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/ribbon-howto-1-80x80px.png">Activate the theme </a></p>
+					<a href="http://handshake302.com/index.php/call-for-artists-residency/"> <span class="number">01/</span> <p>住村 Residency</a></p>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/ribbon-howto-2-80x80px.png">Use the customizer </a></p>
+					<a href="http://handshake302.com/index.php/presentation-of-hiding-in-the-city/"> <span class="number">02/</span> <p>招手 Opportunity</a></p>
 				</div>
 			</div>
 			<div class="col-md-3">
 				<div class="ribbon-text">
-					<p><a href="#"> <img src="https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/ribbon-howto-3-80x80px.png">Start posting content </a></p>
+					<a href="http://handshake302.com/index.php/hi-neighbors/"> <span class="number">03/</span> <p>社区 Community</a></p>
 				</div>
 			</div>
 		</div>

@@ -6,39 +6,40 @@
 		<li></li>
 	</ul>
 	<div class="v-center">
-	        <div class="col-md-3">
-	                <h2>What We Do</h2>
-	                <p>Our Mission</p>
-	                <p>Get Involved</p>
-	                <p>Events</p>
-	                <p>Portfolio</p>
-	                <p>Blog</p>
-	        </div>
-	        <div class="col-md-3">
-	                <h2>Who We Are</h2>
-	                <p>Our Team</p>
-	                <p>Partners</p>
-	                <p>Press</p>
-	                <p>Contact</p>
-	                <p>FAQ</p>
-	        </div>
-	        <div class="col-md-3">
-	                <h2>About Us</h2>
-	                <p class="about-text">This theme was designed to showcase art portfolios for a team of artists living in Shenzhen, China. For best results, use only high resolution images.</p>
-	                <p class="about-text">Contact Quilombola Engineering you need any help to implement this or any other Wordpress theme.</p>
-	        </div>
-	        <div class="col-md-3">
-                	<h2>Links</h2>
-	                <p class="about-text">Learn more about Handshaker and Quilombola Engineering:</p>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-link"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-search"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-user"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-phone"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-fire"></span></div>
-			<div onmousedown="sploob()" class="col-xs-2"><span class="glyphicon glyphicon-envelope"></span></div>
-	                <h2>Handshaker</h2>
-	                <p class="about-text">Handshaker is a Wordpress Theme created by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a>. </p>
-        	</div>
+		<div class="row">
+		        <div class="col-md-3">
+		                <h2>搜索Search</h2>
+		                <p><?php get_search_form(); ?></p>
+		        </div>
+		        <div class="col-md-3">
+	                	<h2>分享Share</h2>
+				<div onmousedown="sploob()" class="col-md-2">
+					<a href="https://www.facebook.com/Handshake-302-198875220512689/">
+						<i id="facebookIcon" class="fa fa-facebook animated" aria-hidden="true"></i>
+					</a>
+				</div>
+				<div onmousedown="sploob()" class="col-md-2">
+					<a href="http://mp.weixin.qq.com/s?__biz=MjM5MjY1OTQwNw==&mid=402769166&idx=1&sn=4f9d6c439c0ecb75c6ecf30ce902f5b1#rd">
+						<i id="weixinIcon" class="fa fa-weixin animated" aria-hidden="true"></i>
+					</a>
+				</div>
+		        </div>
+		        <div class="col-md-3">
+		                <h2>链接Links</h2>
+		                <p><a href="http://handshake302.com/index.php/friends/">朋友Friends</a></p>
+		                <p><a href="http://handshake302.com/index.php/neighbors/">邻居Neighbors</a></p>
+		        </div>
+		        <div class="col-md-3">
+		                <h2>联络Contact</h2>
+		                <p><a href="mailto:handshake302@126.com">电子邮件Email</a></p>
+		                <p><a href="http://handshake302.com/index.php/address/">地址Address</a></p>
+	        	</div>
+		</div>
+		<div class="row">
+		        <div class="col-md-4 col-md-offset-4">
+		                <p class="about-text">Developed by <a href="http://www.quilombolaengineering.com">Quilombola Engineering</a> </p>
+	        	</div>
+		</div>
 	</div>
 </section>
 

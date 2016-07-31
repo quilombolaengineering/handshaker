@@ -44,7 +44,6 @@
 		font-size: 12px;
 		font-weight: 900;
 	  	line-height: 1.5;
-		width: 30px;
 	}
 	@media only screen and (max-width: 766px) {
 	  	.logo {
@@ -115,7 +114,7 @@
 }
 
 .sticky {
-	background-color: $color-orange-alpha;
+	background-color: $color-green-alpha;
 	opacity: 1;
 	top: 0px;
 	border-bottom: 1px solid $color-light;

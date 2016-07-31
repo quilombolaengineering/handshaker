@@ -7,6 +7,11 @@
 	height: 100vh;
 	color: $color-orange-alpha;
 	@include overlay($color-dark, 0.8);
+	.options {
+		animation-duration: 3s;
+		animation-delay: 1s;
+		animation-iteration-count: 1;
+	}
 	.v-center {
 		display: table-cell;
 		vertical-align: middle;
@@ -17,6 +22,18 @@
 			@include animation(fade-in ease-in-out 2s 0.5s both);
 		}
 	}
+	h1 {
+		font-family: playfair display, georgia, times, serif;
+                text-transform: lowercase;
+	}
+        h2 {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 150%;
+                font-weight: 100;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-orange;
+        }
 	p {
 		font-size: 120%;
 		@include animation(fade-in ease-in-out 2s 1s both);
@@ -35,43 +52,24 @@
 			@include bg-abs;
 			opacity: 0;
 			@include animation(fade-out 9s infinite both);
-			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg);
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-800x1200px.png);
 			@media (min-width: $mq-med) {
-				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/red-clown-2000x1350px.png);
 			}
 		}
 	 	li:nth-child(2) {
-			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg);
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/banana-shot-800x1200px.png);
 			@include animation-delay(6s);
 			@media (min-width: $mq-med) {
-				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wall-hands-2000x1350px.png);
 			}
 		}
 		li:nth-child(3) {
-			background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whitesquare-800x1200px.jpeg);
+			background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/wheel-of-fortune-800x1200px.png);
 			@include animation-delay(3s);
 			@media (min-width: $mq-med) {
-				background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/crystalcubes-2000x1350px.jpeg);
+				background-image: url(https://s3.ap-northeast-2.amazonaws.com/www-handshake302-com/truck-2000x1350px.png);
 			}
 		}
-	}
-	.yellow-button {
-		@include animation(fade-in ease-in-out 2s 2s both);
-                margin: 1em auto;
-                border: 1px solid $color-dark;
-                border-radius: 1px;
-                background-color: $color-yellow;
-                font-family: Lato;
-                text-align: center;
-                color: $color-dark;
-                transition: ease-out 0.5s;
-                width: 10em;
-                height: 2em;
-	}
-	.yellow-button:hover {
-                background-color: white;
-                border: 1px solid $color-orange;
-                color: $color-orange;
-
 	}
 }

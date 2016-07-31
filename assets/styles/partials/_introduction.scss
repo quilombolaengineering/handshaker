@@ -5,10 +5,6 @@
 .organization-summary {
 	position: relative;
 	margin: 10em 0;
-
-	img:hover {
-		@include animation(rubber-band ease-in-out 3s);
-	}	
 }
 
 h1 {
@@ -17,34 +13,10 @@ h1 {
 	@include animation(fade-in ease-in-out 2s 0.5s both);
 }
 
-.introduction-image {
-	padding: 1em 0;
-	position: relative;
-	display: table-cell;
-	vertical-align: middle;
-	width: 250px;
-	opacity: 1;
-}
-
-.introduction-title {
-	margin: 0;
-	padding-bottom: 1em;
-}
-
-.introduction-line {
-	margin: 0;
-	padding-bottom: 1em;
-}
-
-.introduction-text {
-	margin: 0;
-	padding-bottom: 1em;
-}
-
 /* COLORED BORDERS AND LINES */
 .colored-line {
 	@include animation(stretch-line ease-out 1s 0.5s forwards);
-	background: $color-orange;
+	background: $color-green;
 	margin: 0;
 	padding: 0;
 	height: 2px;
@@ -54,7 +26,7 @@ h1 {
 
 .organization-story {
 	padding: 4em 2em;
-	border-top: 2px solid $color-orange;
+	border-top: 2px solid $color-green;
 	background-color: $color-grey;
 	color: $color-light;
 }
@@ -81,4 +53,6 @@ h1 {
 		border: 1px solid $color-dark;
                 color: $color-dark;
 }
+
+
 

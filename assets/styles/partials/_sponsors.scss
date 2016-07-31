@@ -4,23 +4,32 @@
 
 .sponsors {
 	padding: 4em 2em;
-	border-top: 2px solid $color-orange;
+	border-top: 2px solid $color-green;
 	background-color: $color-yellow;
 	color: $color-dark;
 	text-align: center;
 	
 	img {
 		margin: 1em auto;
-		width: 80%
+		width: 80%;
+		transition: all 3s ease-in;
 	}
 	
 	img:hover {
-		@include animation(rubber-band ease-in-out 3s);
+		transform: scale(1.1);
 	}
 
 	h1 {
 		color: $color-dark;
 	}
+        h2 {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 150%;
+                font-weight: 100;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-orange;
+        }
 }
 
 

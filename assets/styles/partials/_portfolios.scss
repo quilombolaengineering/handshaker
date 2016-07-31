@@ -5,26 +5,32 @@
 .portfolios {
 	position: relative;
 	padding: 4em 2em;
-	border-top: 2px solid $color-orange;
 	background-color: $color-light;
 	color: $color-dark;
 	text-align: center;
-
+	min-height: 100vh;
 	h1 {
 		color: $color-dark;
 	}
-
-	p {
-		margin: 2em;
-	}
-
 	div {
 		line-height: 2em;
 	}
-
+        h2 {
+                font-family: 'Yanone Kaffeesatz';
+                font-size: 150%;
+                font-weight: 100;
+                text-transform: lowercase;
+                text-decoration: none;
+                color: $color-orange;
+        }
+        p {
+                font-size: 90%;
+                color: $color-orange;
+                @include animation(fade-in ease-in-out 2s 1s both);
+        }
 	.projects {
+		margin-top: 2em;
 		line-height: 2em;
-
 		h1 {
 			padding: 1em 0;
 			font-size: 1.25em;
@@ -34,7 +40,6 @@
 			background-color: $color-dark-alpha;
 	        	color: $color-light;
 		}
-
 		p {
 			transition: opacity ease-out 1s 2.5s;
 			opacity: 0;
@@ -44,20 +49,18 @@
 	        	font-weight: 200;
         		font-family: Lato;
 		        text-transform: capitalize;
-	        	color: $color-orange;
+	        	color: $color-green;
 			background-color: $color-light-alpha;
 		}
-
 		div {
-			border: 1px solid $color-orange;
+			border: 1px solid $color-green;
 			box-shadow: 0px 0px 1px rgba(0,0,0,0.7);
 		}
-
 		div:hover {
 			@include animation(flip ease-out 2.5s 0.5s);
 		}
-
 		.completed-projects {
+			height: 25vh;
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-800x1200px.png");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
@@ -65,14 +68,13 @@
                                 background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/mossheads-2000x1350px.jpeg);
                         }
 		}
-
 		.completed-projects:hover {
 			p {
 				opacity: 1;
 			}
 		}
-
 		.current-projects {
+			height: 25vh;
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/trapped-800x1200px.jpeg");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
@@ -80,14 +82,13 @@
                                 background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/flowersquare-2000x1350px.jpeg);
                         }
 		}
-
 		.current-projects:hover {
 			p {
 				opacity: 1;
 			}
 		}
-
 		.upcoming-projects {
+			height: 25vh;
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-1600x2400px.png");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
@@ -95,14 +96,13 @@
                                 background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/chubsters-4000x2700px.jpg);
                         }
 		}
-
 		.upcoming-projects:hover {
 			p {
 				opacity: 1;
 			}
 		}
-
 		.decorated-projects {
+			height: 25vh;
 			background-image: url("https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-800x1200px.jpeg");
 			background-size: 100% auto;
 			background-repeat: no-repeat;
@@ -110,7 +110,6 @@
                                 background-image: url(https://s3.ap-northeast-2.amazonaws.com/handshaker-theme/whiteheads-2000x1350px.jpeg);
                         }
 		}
-
 		.decorated-projects:hover {
 			p {
 				opacity: 1;
